@@ -55,6 +55,7 @@
     <Compile Include="FlipImageLC832.cs" />
     <Compile Include="CoinChangeLC322.cs" />
     <Compile Include="GroupAnagramsLC49.cs" />
+    <Compile Include="LargestValuesFromLabelLC1090.cs" />
     <Compile Include="MaxAreaLC11.cs" />
     <Compile Include="MoveZeroesLC283.cs" />
     <Compile Include="UniqueEmailAddressLC929.cs" />
