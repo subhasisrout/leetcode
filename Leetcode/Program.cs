@@ -11,10 +11,13 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            LargestValuesFromLabelLC1090 largestValuesFromLabelLC1090 = new LargestValuesFromLabelLC1090();
-            var r = largestValuesFromLabelLC1090.LargestValsFromLabels(new int[] { 5, 4, 3, 2, 1 }, new int[] { 1, 1, 2, 2, 3 }, 3, 1);
+            VerifyAlienDictionaryLC953 verifyAlienDictionaryLC953 = new VerifyAlienDictionaryLC953();
+            bool result = verifyAlienDictionaryLC953.IsAlienSorted(new string[] { "word", "world", "row" }, "worldabcefghijkmnpqstuvxyz");
             int dummy = 10;
 
+            //LargestValuesFromLabelLC1090 largestValuesFromLabelLC1090 = new LargestValuesFromLabelLC1090();
+            //var r = largestValuesFromLabelLC1090.LargestValsFromLabels(new int[] { 5, 4, 3, 2, 1 }, new int[] { 1, 1, 2, 2, 3 }, 3, 1);
+            
             //CoinChangeLC322 coinChangeLC322 = new CoinChangeLC322();
             //var coins = coinChangeLC322.CoinChange(new int[] { 1,5,6,10 }, 18);
 

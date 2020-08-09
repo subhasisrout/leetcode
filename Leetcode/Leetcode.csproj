@@ -82,6 +82,7 @@
     <Compile Include="TreeNode.cs" />
     <Compile Include="ValidateBSTLC98.cs" />
     <Compile Include="ValidPalindrome2LC680.cs" />
+    <Compile Include="VerifyAlienDictionaryLC953.cs" />
     <Compile Include="WordsearchLeetcode79.cs" />
   </ItemGroup>
   <ItemGroup>
