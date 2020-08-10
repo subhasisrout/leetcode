@@ -11,9 +11,12 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            VerifyAlienDictionaryLC953 verifyAlienDictionaryLC953 = new VerifyAlienDictionaryLC953();
-            bool result = verifyAlienDictionaryLC953.IsAlienSorted(new string[] { "word", "world", "row" }, "worldabcefghijkmnpqstuvxyz");
+            MinimumDominoRotationLC1007 minimumDominoRotationLC1007 = new MinimumDominoRotationLC1007();
+            var result = minimumDominoRotationLC1007.MinDominoRotations(new int[] { 1,2,3,4,6 }, new int[] { 6,6,6,6,5 });
             int dummy = 10;
+
+            //VerifyAlienDictionaryLC953 verifyAlienDictionaryLC953 = new VerifyAlienDictionaryLC953();
+            //bool result = verifyAlienDictionaryLC953.IsAlienSorted(new string[] { "word", "world", "row" }, "worldabcefghijkmnpqstuvxyz");
 
             //LargestValuesFromLabelLC1090 largestValuesFromLabelLC1090 = new LargestValuesFromLabelLC1090();
             //var r = largestValuesFromLabelLC1090.LargestValsFromLabels(new int[] { 5, 4, 3, 2, 1 }, new int[] { 1, 1, 2, 2, 3 }, 3, 1);
