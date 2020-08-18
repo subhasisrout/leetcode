@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections;
+﻿using Leetcode.SampleEntities;
+using PriorityQueueFromCodeProject;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Leetcode
 {
@@ -11,9 +8,20 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            MinimumDominoRotationLC1007 minimumDominoRotationLC1007 = new MinimumDominoRotationLC1007();
-            var result = minimumDominoRotationLC1007.MinDominoRotations(new int[] { 1,2,3,4,6 }, new int[] { 6,6,6,6,5 });
+            AddStringsLC415 addStringsLC415 = new AddStringsLC415();
+            var result = addStringsLC415.AddStrings("1", "9");
             int dummy = 10;
+            //BagofTokensLC948 bagofTokensLC948 = new BagofTokensLC948();
+            //var output = bagofTokensLC948.BagOfTokensScore(new int[] {100, 200 }, 150);
+            
+            //ReorganizeStringLC767 reorganizeStringLC767 = new ReorganizeStringLC767();
+            //var res = reorganizeStringLC767.ReorganizeString("aaab");
+
+            //PriorityQueue<Employee,Employee> maxHeap = new PriorityQueue<Employee,Employee>(EmployeeUtils.GetEmployees(), new EmployeeComparer());
+            //var x = maxHeap.DequeueValue();
+
+            //MinimumDominoRotationLC1007 minimumDominoRotationLC1007 = new MinimumDominoRotationLC1007();
+            //var result = minimumDominoRotationLC1007.MinDominoRotations(new int[] { 1,2,3,4,6 }, new int[] { 6,6,6,6,5 });
 
             //VerifyAlienDictionaryLC953 verifyAlienDictionaryLC953 = new VerifyAlienDictionaryLC953();
             //bool result = verifyAlienDictionaryLC953.IsAlienSorted(new string[] { "word", "world", "row" }, "worldabcefghijkmnpqstuvxyz");

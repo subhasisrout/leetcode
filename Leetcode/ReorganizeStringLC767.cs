@@ -1,54 +1,74 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
+﻿using PriorityQueueFromCodeProject;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-//namespace Leetcode
-//{
-//    public class ReorganizeStringLC767
-//    {
-//        public string ReorganizeString(string S)
-//        {
-//            char[] arr = S.ToCharArray();
-//            Dictionary<char, int> map = new Dictionary<char, int>();
-//            for (int i = 0; i < arr.Length; i++)
-//            {
-//                map.Add(arr[i], !map.ContainsKey(arr[i]) ? 1 : map[arr[i]] + 1);
-//            }
+namespace Leetcode
+{
+    public class ReorganizeStringLC767
+    {
+        public string ReorganizeString(string S)
+        {
+            char[] arr = S.ToCharArray();
+            Dictionary<char, int> counts = new Dictionary<char, int>();
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (!counts.ContainsKey(arr[i]))
+                    counts.Add(arr[i], 1);
+                else
+                    counts[arr[i]] = counts[arr[i]] + 1;
+            }
+            CountsComparer countsComparer = new CountsComparer(counts);
+            List<KeyValuePair<char,char>> data = new List<KeyValuePair<char, char>>();
+            foreach (var item in counts)
+            {
+                data.Add(new KeyValuePair<char, char>(item.Key, item.Key));
+            }
+            PriorityQueue<char, char> maxHeap = new PriorityQueue<char, char>(data,countsComparer);
 
+            StringBuilder result = new StringBuilder();
+            while (maxHeap.Count > 1)
+            {
+                char current = maxHeap.DequeueValue();
+                char next = maxHeap.DequeueValue();
+                result.Append(current);
+                result.Append(next);
+
+                counts[current] = counts[current] - 1;
+                counts[next] = counts[next] - 1;
+
+                if (counts[current] > 0)
+                    maxHeap.Add(new KeyValuePair<char, char>(current, current));
+
+                if (counts[next] > 0)
+                    maxHeap.Add(new KeyValuePair<char, char>(next, next));
+            }
+
+            if (!maxHeap.IsEmpty)
+            {
+                char last = maxHeap.DequeueValue();
+                if (counts[last] > 1)
+                    return "";
+                result.Append(last);
+            }
             
+            return result.ToString();
+        }
 
-//            StringBuilder output = new StringBuilder();
-//            while (priorityQueue.Count > 1)
-//            {
-//                char current = priorityQueue.Dequeue().Char;
-//                map[current] = map[current] - 1;
-//                char next = priorityQueue.Dequeue().Char;
-//                map[next] = map[next] - 1;
-//                output.Append(current);
-//                output.Append(next);
+        public class CountsComparer : IComparer<char>
+        {
+            Dictionary<char, int> counts;
+            public CountsComparer(Dictionary<char, int> counts)
+            {
+                this.counts = counts;
+            }
+            public int Compare(char x, char y)
+            {
+                return counts[y] - counts[x];
+            }
+        }
 
-//                if (map[current] > 0)
-//                    priorityQueue.Enqueue(current);
-
-//                if (map[next] > 0)
-//                    priorityQueue.Enqueue(next);
-
-//            }
-
-
-
-//        }
-//    }
-//    public class CharCount : IComparable<CharCount>
-//    {
-//        public char Char { get; set; }
-//        public int Count { get; set; }
-
-//        public int CompareTo(CharCount other) //low to high
-//        {
-//            return this.Count.CompareTo(other.Count);
-//        }
-//    }
-//}
+    }
+   
+}

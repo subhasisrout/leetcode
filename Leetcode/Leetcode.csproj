@@ -49,7 +49,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddStringsLC415.cs" />
     <Compile Include="AsteroidCollisionLC735.cs" />
+    <Compile Include="BagofTokensLC948.cs" />
     <Compile Include="BinaryTreePathsLC257.cs" />
     <Compile Include="BoatsToSavePeopleLC881.cs" />
     <Compile Include="FlipImageLC832.cs" />
@@ -59,11 +61,10 @@
     <Compile Include="MaxAreaLC11.cs" />
     <Compile Include="MinimumDominoRotationLC1007.cs" />
     <Compile Include="MoveZeroesLC283.cs" />
+    <Compile Include="PriorityQueueFromCodeProject\PriorityQueue.cs" />
+    <Compile Include="SampleEntities\Employee.cs" />
     <Compile Include="UniqueEmailAddressLC929.cs" />
     <Compile Include="ValidAnagramLC242.cs" />
-    <Compile Include="PriorityQueue\GenericPriorityQueueNode.cs" />
-    <Compile Include="PriorityQueue\IFixedSizePriorityQueue.cs" />
-    <Compile Include="PriorityQueue\IPriorityQueue.cs" />
     <Compile Include="IsSubsequenceLC392.cs" />
     <Compile Include="KthSmallestInBSTLeetcode230.cs" />
     <Compile Include="LastStoneWeightLC1046.cs" />
@@ -71,7 +72,6 @@
     <Compile Include="LRUCacheLeetCode146.cs" />
     <Compile Include="MedianFinder.cs" />
     <Compile Include="MissingNumInArrayLC448.cs" />
-    <Compile Include="PriorityQueue\GenericPriorityQueue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RansomNoteLC383.cs" />
@@ -90,5 +90,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
