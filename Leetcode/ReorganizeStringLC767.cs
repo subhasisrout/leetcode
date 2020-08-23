@@ -39,10 +39,10 @@ namespace Leetcode
                 counts[next] = counts[next] - 1;
 
                 if (counts[current] > 0)
-                    maxHeap.Add(new KeyValuePair<char, char>(current, current));
+                    maxHeap.Enqueue(current, current);
 
                 if (counts[next] > 0)
-                    maxHeap.Add(new KeyValuePair<char, char>(next, next));
+                    maxHeap.Enqueue(next, next);
             }
 
             if (!maxHeap.IsEmpty)

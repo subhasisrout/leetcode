@@ -8,9 +8,14 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            AddStringsLC415 addStringsLC415 = new AddStringsLC415();
-            var result = addStringsLC415.AddStrings("1", "9");
+            MinCostToConnectSticksLC1167Premium minCostToConnectSticksLC1167Premium = new MinCostToConnectSticksLC1167Premium();
+            var result = minCostToConnectSticksLC1167Premium.ConnectSticks(new int[] {1,8,3,5});
             int dummy = 10;
+
+
+            //AddStringsLC415 addStringsLC415 = new AddStringsLC415();
+            //var result = addStringsLC415.AddStrings("1", "9");
+            
             //BagofTokensLC948 bagofTokensLC948 = new BagofTokensLC948();
             //var output = bagofTokensLC948.BagOfTokensScore(new int[] {100, 200 }, 150);
             

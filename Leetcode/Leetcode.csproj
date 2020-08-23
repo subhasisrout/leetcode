@@ -59,9 +59,11 @@
     <Compile Include="GroupAnagramsLC49.cs" />
     <Compile Include="LargestValuesFromLabelLC1090.cs" />
     <Compile Include="MaxAreaLC11.cs" />
+    <Compile Include="MinCostToConnectSticksLC1167Premium.cs" />
     <Compile Include="MinimumDominoRotationLC1007.cs" />
     <Compile Include="MoveZeroesLC283.cs" />
     <Compile Include="PriorityQueueFromCodeProject\PriorityQueue.cs" />
+    <Compile Include="RangeSumBSTLC938.cs" />
     <Compile Include="SampleEntities\Employee.cs" />
     <Compile Include="UniqueEmailAddressLC929.cs" />
     <Compile Include="ValidAnagramLC242.cs" />
