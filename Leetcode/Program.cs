@@ -8,10 +8,31 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            MinCostToConnectSticksLC1167Premium minCostToConnectSticksLC1167Premium = new MinCostToConnectSticksLC1167Premium();
-            var result = minCostToConnectSticksLC1167Premium.ConnectSticks(new int[] {1,8,3,5});
+
+            ListNode headA = new ListNode(4);
+            headA.next = new ListNode(1);
+            headA.next.next = new ListNode(8);
+            headA.next.next.next = new ListNode(4);
+            headA.next.next.next.next = new ListNode(5);
+
+            ListNode headB = new ListNode(5);
+            headB.next = new ListNode(6);
+            headB.next.next = new ListNode(1);
+            headB.next.next.next = headA.next.next;
+            headB.next.next.next.next = headA.next.next.next;
+            headB.next.next.next.next.next = headA.next.next.next.next;
+
+            //ListNode headA = new ListNode(3);
+            //ListNode headB = new ListNode(2);
+            //headB.next = headA;
+
+
+            IntersectionOfTwoLinkedListLC160 intersectionOfTwoLinkedListLC160 = new IntersectionOfTwoLinkedListLC160();
+            var intersectionNode = intersectionOfTwoLinkedListLC160.GetIntersectionNode(headA, headB);
             int dummy = 10;
 
+            //MinCostToConnectSticksLC1167Premium minCostToConnectSticksLC1167Premium = new MinCostToConnectSticksLC1167Premium();
+            //var result = minCostToConnectSticksLC1167Premium.ConnectSticks(new int[] {1,8,3,5});
 
             //AddStringsLC415 addStringsLC415 = new AddStringsLC415();
             //var result = addStringsLC415.AddStrings("1", "9");
