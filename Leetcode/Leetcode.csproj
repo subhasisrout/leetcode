@@ -54,6 +54,7 @@
     <Compile Include="BagofTokensLC948.cs" />
     <Compile Include="BinaryTreePathsLC257.cs" />
     <Compile Include="BoatsToSavePeopleLC881.cs" />
+    <Compile Include="DeleteNodesReturnForestLC1110.cs" />
     <Compile Include="FlipImageLC832.cs" />
     <Compile Include="CoinChangeLC322.cs" />
     <Compile Include="GroupAnagramsLC49.cs" />
@@ -63,9 +64,11 @@
     <Compile Include="MaxAreaLC11.cs" />
     <Compile Include="MinCostToConnectSticksLC1167Premium.cs" />
     <Compile Include="MinimumDominoRotationLC1007.cs" />
+    <Compile Include="MinimumPathSumLC64.cs" />
     <Compile Include="MoveZeroesLC283.cs" />
     <Compile Include="PriorityQueueFromCodeProject\PriorityQueue.cs" />
     <Compile Include="RangeSumBSTLC938.cs" />
+    <Compile Include="RepeatedDNASequencesLC187.cs" />
     <Compile Include="SampleEntities\Employee.cs" />
     <Compile Include="UniqueEmailAddressLC929.cs" />
     <Compile Include="ValidAnagramLC242.cs" />
