@@ -54,6 +54,7 @@
     <Compile Include="BagofTokensLC948.cs" />
     <Compile Include="BinaryTreePathsLC257.cs" />
     <Compile Include="BoatsToSavePeopleLC881.cs" />
+    <Compile Include="BSTRightSideViewLC199.cs" />
     <Compile Include="DeleteNodesReturnForestLC1110.cs" />
     <Compile Include="FlipImageLC832.cs" />
     <Compile Include="CoinChangeLC322.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="LargestValuesFromLabelLC1090.cs" />
     <Compile Include="ListNode.cs" />
     <Compile Include="MaxAreaLC11.cs" />
+    <Compile Include="MergeSortedListLC21.cs" />
     <Compile Include="MinCostToConnectSticksLC1167Premium.cs" />
     <Compile Include="MinimumDominoRotationLC1007.cs" />
     <Compile Include="MinimumPathSumLC64.cs" />
@@ -89,6 +91,7 @@
     <Compile Include="SortCharByFreqLeetcode451.cs" />
     <Compile Include="TreeNode.cs" />
     <Compile Include="ValidateBSTLC98.cs" />
+    <Compile Include="ValidMountainArrayLC941.cs" />
     <Compile Include="ValidPalindrome2LC680.cs" />
     <Compile Include="VerifyAlienDictionaryLC953.cs" />
     <Compile Include="WordsearchLeetcode79.cs" />

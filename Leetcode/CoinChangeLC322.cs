@@ -8,10 +8,10 @@ namespace Leetcode
 {
     public class CoinChangeLC322
     {
-        public int CoinChange(int[] coins, int amount)
+        public int CoinChange2(int[] coins, int amount)
         {
-            int retVal = int.MaxValue;                
-            return CoinChangeHelper(amount, coins,ref retVal);
+            int retVal = int.MaxValue;
+            return CoinChangeHelper(amount, coins, ref retVal);
         }
 
         private int CoinChangeHelper(int amount, int[] coins, ref int numCoins)
@@ -31,6 +31,29 @@ namespace Leetcode
                     minCoins = numCoins;
             }
             return minCoins;
+        }
+
+        //Below is the bottom-up approach (using dp array). i.e. finding the answer to the subproblem 1-by-1 till we reach the final amount
+        public int CoinChange(int[] coins, int amount)
+        {
+            int[] dp = new int[amount + 1]; //if the amount is 10, we need 11 places (0 to 10).
+            for (int i = 0; i < dp.Length; i++) // initialize the array to invalid values. i.e to return amount 5, you need 11 coins.
+            {
+                dp[i] = amount + 1;
+            }
+            //subproblem-0
+            dp[0] = 0;
+            for (int i = 1; i <= amount; i++) //subproblem-1 to subproblem-n
+            {
+                for (int j = 0; j < coins.Length; j++) // for each coin denomination
+                {
+                    if (i >= coins[j])
+                        dp[i] = Math.Min(dp[i], 1 + dp[i - coins[j]]);
+                }
+            }
+
+
+            return dp[amount] > amount ? -1 : dp[amount];
         }
     }
 }

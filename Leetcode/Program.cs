@@ -8,19 +8,18 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            RepeatedDNASequencesLC187 repeatedDNASequencesLC187 = new RepeatedDNASequencesLC187();
-            var retVal = repeatedDNASequencesLC187.FindRepeatedDnaSequences("AAAAAAAAAAA");
-            int dummy = 10;
+            //RepeatedDNASequencesLC187 repeatedDNASequencesLC187 = new RepeatedDNASequencesLC187();
+            //var retVal = repeatedDNASequencesLC187.FindRepeatedDnaSequences("AAAAAAAAAAA");
 
-            //ListNode headA = new ListNode(4);
-            //headA.next = new ListNode(1);
-            //headA.next.next = new ListNode(8);
+            ListNode headA = new ListNode(1);
+            headA.next = new ListNode(2);
+            headA.next.next = new ListNode(4);
             //headA.next.next.next = new ListNode(4);
             //headA.next.next.next.next = new ListNode(5);
 
-            //ListNode headB = new ListNode(5);
-            //headB.next = new ListNode(6);
-            //headB.next.next = new ListNode(1);
+            ListNode headB = new ListNode(1);
+            headB.next = new ListNode(3);
+            headB.next.next = new ListNode(4);
             //headB.next.next.next = headA.next.next;
             //headB.next.next.next.next = headA.next.next.next;
             //headB.next.next.next.next.next = headA.next.next.next.next;
@@ -29,6 +28,9 @@ namespace Leetcode
             //ListNode headB = new ListNode(2);
             //headB.next = headA;
 
+            MergeSortedListLC21 mergeSortedListLC21 = new MergeSortedListLC21();
+            var res = mergeSortedListLC21.MergeTwoLists(headA, headB);
+            int dummy = 10;
 
             //IntersectionOfTwoLinkedListLC160 intersectionOfTwoLinkedListLC160 = new IntersectionOfTwoLinkedListLC160();
             //var intersectionNode = intersectionOfTwoLinkedListLC160.GetIntersectionNode(headA, headB);
@@ -38,10 +40,10 @@ namespace Leetcode
 
             //AddStringsLC415 addStringsLC415 = new AddStringsLC415();
             //var result = addStringsLC415.AddStrings("1", "9");
-            
+
             //BagofTokensLC948 bagofTokensLC948 = new BagofTokensLC948();
             //var output = bagofTokensLC948.BagOfTokensScore(new int[] {100, 200 }, 150);
-            
+
             //ReorganizeStringLC767 reorganizeStringLC767 = new ReorganizeStringLC767();
             //var res = reorganizeStringLC767.ReorganizeString("aaab");
 
@@ -56,7 +58,7 @@ namespace Leetcode
 
             //LargestValuesFromLabelLC1090 largestValuesFromLabelLC1090 = new LargestValuesFromLabelLC1090();
             //var r = largestValuesFromLabelLC1090.LargestValsFromLabels(new int[] { 5, 4, 3, 2, 1 }, new int[] { 1, 1, 2, 2, 3 }, 3, 1);
-            
+
             //CoinChangeLC322 coinChangeLC322 = new CoinChangeLC322();
             //var coins = coinChangeLC322.CoinChange(new int[] { 1,5,6,10 }, 18);
 
@@ -93,18 +95,21 @@ namespace Leetcode
             //          10               30
             //      4       12       21      50
             //                           45      55
-            //TreeNode root = new TreeNode(20);
-            //root.left = new TreeNode(10);
-            //root.right = new TreeNode(30);
+            TreeNode root = new TreeNode(20);
+            root.left = new TreeNode(10);
+            root.right = new TreeNode(30);
 
-            //root.left.left = new TreeNode(4);
-            //root.left.right = new TreeNode(12);
+            root.left.left = new TreeNode(4);
+            root.left.right = new TreeNode(12);
 
-            //root.right.left = new TreeNode(21);
-            //root.right.right = new TreeNode(50);
+            root.right.left = new TreeNode(21);
+            root.right.right = new TreeNode(50);
 
-            //root.right.right.left = new TreeNode(45);
-            //root.right.right.right = new TreeNode(55);
+            root.right.right.left = new TreeNode(45);
+            root.right.right.right = new TreeNode(55);
+
+            BSTRightSideViewLC199 bSTRightSideViewLC199 = new BSTRightSideViewLC199();
+            bSTRightSideViewLC199.RightSideView(root);
 
             //ValidateBSTLC98 validateBSTLC98 = new ValidateBSTLC98();
             //Console.WriteLine(validateBSTLC98.IsValidBST(root));
