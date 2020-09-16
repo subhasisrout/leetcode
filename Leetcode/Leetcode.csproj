@@ -68,6 +68,7 @@
     <Compile Include="MinimumDominoRotationLC1007.cs" />
     <Compile Include="MinimumPathSumLC64.cs" />
     <Compile Include="MoveZeroesLC283.cs" />
+    <Compile Include="PartitionEqualSubsetSumLC416.cs" />
     <Compile Include="PriorityQueueFromCodeProject\PriorityQueue.cs" />
     <Compile Include="RangeSumBSTLC938.cs" />
     <Compile Include="RepeatedDNASequencesLC187.cs" />

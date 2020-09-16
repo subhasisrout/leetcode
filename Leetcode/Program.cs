@@ -1,5 +1,6 @@
 ﻿using Leetcode.SampleEntities;
 using PriorityQueueFromCodeProject;
+using System;
 using System.Collections.Generic;
 
 namespace Leetcode
@@ -8,18 +9,21 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
+            PartitionEqualSubsetSumLC416 partitionEqualSubsetSumLC416 = new PartitionEqualSubsetSumLC416();
+            Console.WriteLine(partitionEqualSubsetSumLC416.CanPartition(new int[] { 1, 5, 5, 11, 8, 2, 6, 2, 1, 1, }));
+
             //RepeatedDNASequencesLC187 repeatedDNASequencesLC187 = new RepeatedDNASequencesLC187();
             //var retVal = repeatedDNASequencesLC187.FindRepeatedDnaSequences("AAAAAAAAAAA");
 
-            ListNode headA = new ListNode(1);
-            headA.next = new ListNode(2);
-            headA.next.next = new ListNode(4);
+            //ListNode headA = new ListNode(1);
+            //headA.next = new ListNode(2);
+            //headA.next.next = new ListNode(4);
             //headA.next.next.next = new ListNode(4);
             //headA.next.next.next.next = new ListNode(5);
 
-            ListNode headB = new ListNode(1);
-            headB.next = new ListNode(3);
-            headB.next.next = new ListNode(4);
+            //ListNode headB = new ListNode(1);
+            //headB.next = new ListNode(3);
+            //headB.next.next = new ListNode(4);
             //headB.next.next.next = headA.next.next;
             //headB.next.next.next.next = headA.next.next.next;
             //headB.next.next.next.next.next = headA.next.next.next.next;
@@ -28,9 +32,8 @@ namespace Leetcode
             //ListNode headB = new ListNode(2);
             //headB.next = headA;
 
-            MergeSortedListLC21 mergeSortedListLC21 = new MergeSortedListLC21();
-            var res = mergeSortedListLC21.MergeTwoLists(headA, headB);
-            int dummy = 10;
+            //MergeSortedListLC21 mergeSortedListLC21 = new MergeSortedListLC21();
+            //var res = mergeSortedListLC21.MergeTwoLists(headA, headB);
 
             //IntersectionOfTwoLinkedListLC160 intersectionOfTwoLinkedListLC160 = new IntersectionOfTwoLinkedListLC160();
             //var intersectionNode = intersectionOfTwoLinkedListLC160.GetIntersectionNode(headA, headB);
@@ -95,21 +98,21 @@ namespace Leetcode
             //          10               30
             //      4       12       21      50
             //                           45      55
-            TreeNode root = new TreeNode(20);
-            root.left = new TreeNode(10);
-            root.right = new TreeNode(30);
+            //TreeNode root = new TreeNode(20);
+            //root.left = new TreeNode(10);
+            //root.right = new TreeNode(30);
 
-            root.left.left = new TreeNode(4);
-            root.left.right = new TreeNode(12);
+            //root.left.left = new TreeNode(4);
+            //root.left.right = new TreeNode(12);
 
-            root.right.left = new TreeNode(21);
-            root.right.right = new TreeNode(50);
+            //root.right.left = new TreeNode(21);
+            //root.right.right = new TreeNode(50);
 
-            root.right.right.left = new TreeNode(45);
-            root.right.right.right = new TreeNode(55);
+            //root.right.right.left = new TreeNode(45);
+            //root.right.right.right = new TreeNode(55);
 
-            BSTRightSideViewLC199 bSTRightSideViewLC199 = new BSTRightSideViewLC199();
-            bSTRightSideViewLC199.RightSideView(root);
+            //BSTRightSideViewLC199 bSTRightSideViewLC199 = new BSTRightSideViewLC199();
+            //bSTRightSideViewLC199.RightSideView(root);
 
             //ValidateBSTLC98 validateBSTLC98 = new ValidateBSTLC98();
             //Console.WriteLine(validateBSTLC98.IsValidBST(root));
@@ -257,12 +260,12 @@ namespace Leetcode
 
             foreach (var item in dict)
             {
-                int grpSize = item.Key;                
+                int grpSize = item.Key;
                 List<int> grpMembers = item.Value;
                 List<int> innerList = new List<int>();
                 int counter = 0;
                 foreach (var member in grpMembers)
-                {                    
+                {
                     innerList.Add(member);
                     counter++;
                     if (counter == grpSize)
@@ -279,9 +282,9 @@ namespace Leetcode
         }
         public static int[] TwoSum(int[] nums, int target)
         {
-            for (int i=0;i<nums.Length - 1;i++)
+            for (int i = 0; i < nums.Length - 1; i++)
             {
-                for (int j = i + 1; j < nums.Length;j++)
+                for (int j = i + 1; j < nums.Length; j++)
                 {
                     if (nums[j] == target - nums[i])
                         return new int[] { i, j };
@@ -289,13 +292,13 @@ namespace Leetcode
             }
             return new int[] { -1, -1 };
         }
-       
+
         static int BinarySearch(int[] arr, int num)
         {
             int left = 0;
-            int right = arr.Length;            
+            int right = arr.Length;
 
-            while (left < right-1)
+            while (left < right - 1)
             {
                 int mid = (left + right) / 2;
 
@@ -324,7 +327,7 @@ namespace Leetcode
             if (num % 2 == 0)
                 return 1 + NumberOfSteps(num / 2);
             else
-                return 1 + NumberOfSteps(num -1);
+                return 1 + NumberOfSteps(num - 1);
         }
 
         static void quickSort(int[] arr, int low, int high)
