@@ -55,13 +55,16 @@
     <Compile Include="BinaryTreePathsLC257.cs" />
     <Compile Include="BoatsToSavePeopleLC881.cs" />
     <Compile Include="BSTRightSideViewLC199.cs" />
+    <Compile Include="CombinationSum2LC40.cs" />
     <Compile Include="DeleteNodesReturnForestLC1110.cs" />
     <Compile Include="FlipImageLC832.cs" />
     <Compile Include="CoinChangeLC322.cs" />
     <Compile Include="GroupAnagramsLC49.cs" />
     <Compile Include="IntersectionOfTwoLinkedListLC160.cs" />
     <Compile Include="LargestValuesFromLabelLC1090.cs" />
+    <Compile Include="LastIndexOfCharsInAString.cs" />
     <Compile Include="ListNode.cs" />
+    <Compile Include="LongestCommonPrefixLC14.cs" />
     <Compile Include="MaxAreaLC11.cs" />
     <Compile Include="MergeSortedListLC21.cs" />
     <Compile Include="MinCostToConnectSticksLC1167Premium.cs" />
@@ -69,10 +72,12 @@
     <Compile Include="MinimumPathSumLC64.cs" />
     <Compile Include="MoveZeroesLC283.cs" />
     <Compile Include="PartitionEqualSubsetSumLC416.cs" />
+    <Compile Include="PartitionLabelsLC763.cs" />
     <Compile Include="PriorityQueueFromCodeProject\PriorityQueue.cs" />
     <Compile Include="RangeSumBSTLC938.cs" />
     <Compile Include="RepeatedDNASequencesLC187.cs" />
     <Compile Include="SampleEntities\Employee.cs" />
+    <Compile Include="SubsetsLC78.cs" />
     <Compile Include="UniqueEmailAddressLC929.cs" />
     <Compile Include="ValidAnagramLC242.cs" />
     <Compile Include="IsSubsequenceLC392.cs" />
@@ -101,6 +106,9 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="CombinationSum2LC40.jpg" />
+    <Content Include="SubsetsLC78.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

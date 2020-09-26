@@ -9,10 +9,10 @@ namespace Leetcode
     //https://www.youtube.com/watch?v=vYYNp0Jrdv0
     // #DFS #WordSearch #Graph
     
-    public class WordsearchLeetcode79
+    public class WordsearchLC79
     {
         
-        public WordsearchLeetcode79()
+        public WordsearchLC79()
         {
            
 

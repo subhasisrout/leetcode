@@ -9,8 +9,15 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            PartitionEqualSubsetSumLC416 partitionEqualSubsetSumLC416 = new PartitionEqualSubsetSumLC416();
-            Console.WriteLine(partitionEqualSubsetSumLC416.CanPartition(new int[] { 1, 5, 5, 11, 8, 2, 6, 2, 1, 1, }));
+            PartitionLabelsLC763 partitionLabelsLC763 = new PartitionLabelsLC763();
+            var result = partitionLabelsLC763.PartitionLabels("ababcbacadefegdehijhklij");
+            int dummy = 10;
+
+            //LongestCommonPrefixLC14 longestCommonPrefixLC14 = new LongestCommonPrefixLC14();
+            //var res = longestCommonPrefixLC14.LongestCommonPrefix(new string[] { "flower", "flow", "flight" });
+
+            //PartitionEqualSubsetSumLC416 partitionEqualSubsetSumLC416 = new PartitionEqualSubsetSumLC416();
+            //Console.WriteLine(partitionEqualSubsetSumLC416.CanPartition(new int[] { 1, 5, 5, 11, 8, 2, 6, 2, 1, 1, }));
 
             //RepeatedDNASequencesLC187 repeatedDNASequencesLC187 = new RepeatedDNASequencesLC187();
             //var retVal = repeatedDNASequencesLC187.FindRepeatedDnaSequences("AAAAAAAAAAA");
@@ -145,8 +152,8 @@ namespace Leetcode
             //{ 'S', 'F', 'C', 'S' },
             //{ 'A', 'D', 'E', 'E' }
             //};
-            //WordsearchLeetcode79 wordsearchLeetcode79 = new WordsearchLeetcode79();
-            //Console.WriteLine(wordsearchLeetcode79.Exist(board, "ABCCED"));
+            //WordsearchLC79 wordsearchLC79 = new WordsearchLC79();
+            //Console.WriteLine(wordsearchLC79.Exist(board, "ABCCED"));
 
             //int[] groupSizes = { 2,1,3,3,3,2};
             //var res = GroupThePeople(groupSizes);
