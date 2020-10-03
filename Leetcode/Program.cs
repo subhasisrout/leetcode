@@ -2,6 +2,7 @@
 using PriorityQueueFromCodeProject;
 using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 
 namespace Leetcode
 {
@@ -9,9 +10,16 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            PartitionLabelsLC763 partitionLabelsLC763 = new PartitionLabelsLC763();
-            var result = partitionLabelsLC763.PartitionLabels("ababcbacadefegdehijhklij");
-            int dummy = 10;
+            //HappyNumberLC202 happyNumberLC202 = new HappyNumberLC202();
+            //Console.WriteLine(happyNumberLC202.IsHappy(19));
+
+            //SortArrayByParityLC905 sortArrayByParityLC905 = new SortArrayByParityLC905();
+            //var res = sortArrayByParityLC905.SortArrayByParity2(new int[] { 3, 1, 2, 4 });
+
+            //CountPrimesLC204 countPrimesLC204 = new CountPrimesLC204();           
+
+            //PartitionLabelsLC763 partitionLabelsLC763 = new PartitionLabelsLC763();
+            //var result = partitionLabelsLC763.PartitionLabels("ababcbacadefegdehijhklij");
 
             //LongestCommonPrefixLC14 longestCommonPrefixLC14 = new LongestCommonPrefixLC14();
             //var res = longestCommonPrefixLC14.LongestCommonPrefix(new string[] { "flower", "flow", "flight" });

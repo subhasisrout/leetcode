@@ -56,10 +56,12 @@
     <Compile Include="BoatsToSavePeopleLC881.cs" />
     <Compile Include="BSTRightSideViewLC199.cs" />
     <Compile Include="CombinationSum2LC40.cs" />
+    <Compile Include="CountPrimesLC204.cs" />
     <Compile Include="DeleteNodesReturnForestLC1110.cs" />
     <Compile Include="FlipImageLC832.cs" />
     <Compile Include="CoinChangeLC322.cs" />
     <Compile Include="GroupAnagramsLC49.cs" />
+    <Compile Include="HappyNumberLC202.cs" />
     <Compile Include="IntersectionOfTwoLinkedListLC160.cs" />
     <Compile Include="LargestValuesFromLabelLC1090.cs" />
     <Compile Include="LastIndexOfCharsInAString.cs" />
@@ -77,7 +79,9 @@
     <Compile Include="RangeSumBSTLC938.cs" />
     <Compile Include="RepeatedDNASequencesLC187.cs" />
     <Compile Include="SampleEntities\Employee.cs" />
+    <Compile Include="SortArrayByParityLC905.cs" />
     <Compile Include="SubsetsLC78.cs" />
+    <Compile Include="SymmetricTreeLC101.cs" />
     <Compile Include="UniqueEmailAddressLC929.cs" />
     <Compile Include="ValidAnagramLC242.cs" />
     <Compile Include="IsSubsequenceLC392.cs" />
