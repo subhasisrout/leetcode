@@ -10,6 +10,10 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
+            HouseRobberLC198 houseRobberLC198 = new HouseRobberLC198();
+            var x = houseRobberLC198.Rob(new int[] { 2,3,2 });
+            int dummy = 10;
+
             //HappyNumberLC202 happyNumberLC202 = new HappyNumberLC202();
             //Console.WriteLine(happyNumberLC202.IsHappy(19));
 

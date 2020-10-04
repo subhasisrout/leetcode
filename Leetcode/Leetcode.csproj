@@ -62,6 +62,7 @@
     <Compile Include="CoinChangeLC322.cs" />
     <Compile Include="GroupAnagramsLC49.cs" />
     <Compile Include="HappyNumberLC202.cs" />
+    <Compile Include="HouseRobberLC198.cs" />
     <Compile Include="IntersectionOfTwoLinkedListLC160.cs" />
     <Compile Include="LargestValuesFromLabelLC1090.cs" />
     <Compile Include="LastIndexOfCharsInAString.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="MoveZeroesLC283.cs" />
     <Compile Include="PartitionEqualSubsetSumLC416.cs" />
     <Compile Include="PartitionLabelsLC763.cs" />
+    <Compile Include="PathSum2LC113.cs" />
     <Compile Include="PriorityQueueFromCodeProject\PriorityQueue.cs" />
     <Compile Include="RangeSumBSTLC938.cs" />
     <Compile Include="RepeatedDNASequencesLC187.cs" />
