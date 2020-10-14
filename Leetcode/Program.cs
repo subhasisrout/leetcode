@@ -10,9 +10,24 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            HouseRobberLC198 houseRobberLC198 = new HouseRobberLC198();
-            var x = houseRobberLC198.Rob(new int[] { 2,3,2 });
-            int dummy = 10;
+            ListNode list1 = new ListNode(1);
+            list1.next = new ListNode(4);
+            list1.next.next = new ListNode(5);
+
+            ListNode list2 = new ListNode(1);
+            list2.next = new ListNode(3);
+            list2.next.next = new ListNode(4);
+
+            ListNode list3 = new ListNode(2);
+            list3.next = new ListNode(6);
+
+            MergeKSortedListLC23 mergeKSortedListLC23 = new MergeKSortedListLC23();
+            mergeKSortedListLC23.MergeKLists(new ListNode[] { list1, list2, list3 });
+
+
+
+            //HouseRobberLC198 houseRobberLC198 = new HouseRobberLC198();
+            //var x = houseRobberLC198.Rob(new int[] { 2,3,2 });
 
             //HappyNumberLC202 happyNumberLC202 = new HappyNumberLC202();
             //Console.WriteLine(happyNumberLC202.IsHappy(19));
