@@ -10,19 +10,39 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            ListNode list1 = new ListNode(1);
-            list1.next = new ListNode(4);
-            list1.next.next = new ListNode(5);
+            BinaryNumWithAltBitsLC693 binaryNumWithAltBitsLC693 = new BinaryNumWithAltBitsLC693();
+            binaryNumWithAltBitsLC693.HasAlternatingBits(6);
 
-            ListNode list2 = new ListNode(1);
-            list2.next = new ListNode(3);
-            list2.next.next = new ListNode(4);
+            //ValidPalindromeLC125 validPalindromeLC125 = new ValidPalindromeLC125();
+            //validPalindromeLC125.IsPalindrome("A man, a plan, a canal: Panama");
 
-            ListNode list3 = new ListNode(2);
-            list3.next = new ListNode(6);
+            // RemoveDuplicatesFromSortedArrayLC26 removeDuplicatesFromSortedArrayLC26 = new RemoveDuplicatesFromSortedArrayLC26();
+            // removeDuplicatesFromSortedArrayLC26.RemoveDuplicates(new int[] {1,1 });
+            
+            //AddBinaryLC67 addBinaryLC67 = new AddBinaryLC67();
+            //string res = addBinaryLC67.AddBinary("11", "1");
 
-            MergeKSortedListLC23 mergeKSortedListLC23 = new MergeKSortedListLC23();
-            mergeKSortedListLC23.MergeKLists(new ListNode[] { list1, list2, list3 });
+            //int[][] points = new int[3][];
+            //points[0] = new int[] { 3, 3 };
+            //points[1] = new int[] { 5, -1 };
+            //points[2] = new int[] { -2, 4 };
+            //KClosestPointsToOriginLC973 kClosestPointsToOriginLC973 = new KClosestPointsToOriginLC973();
+            //kClosestPointsToOriginLC973.KClosest(points, 2);
+
+
+            //ListNode list1 = new ListNode(1);
+            //list1.next = new ListNode(4);
+            //list1.next.next = new ListNode(5);
+
+            //ListNode list2 = new ListNode(1);
+            //list2.next = new ListNode(3);
+            //list2.next.next = new ListNode(4);
+
+            //ListNode list3 = new ListNode(2);
+            //list3.next = new ListNode(6);
+
+            //MergeKSortedListLC23 mergeKSortedListLC23 = new MergeKSortedListLC23();
+            //mergeKSortedListLC23.MergeKLists(new ListNode[] { list1, list2, list3 });
 
 
 
