@@ -10,8 +10,12 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            BinaryNumWithAltBitsLC693 binaryNumWithAltBitsLC693 = new BinaryNumWithAltBitsLC693();
-            binaryNumWithAltBitsLC693.HasAlternatingBits(6);
+            LettersCombinationLC17 lettersCombinationLC17 = new LettersCombinationLC17();
+            var result = lettersCombinationLC17.LetterCombinations("279");
+            int dummy = 10;
+
+            //BinaryNumWithAltBitsLC693 binaryNumWithAltBitsLC693 = new BinaryNumWithAltBitsLC693();
+            //binaryNumWithAltBitsLC693.HasAlternatingBits(6);
 
             //ValidPalindromeLC125 validPalindromeLC125 = new ValidPalindromeLC125();
             //validPalindromeLC125.IsPalindrome("A man, a plan, a canal: Panama");

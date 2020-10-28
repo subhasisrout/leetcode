@@ -73,13 +73,17 @@
     <Compile Include="HappyNumberLC202.cs" />
     <Compile Include="HouseRobberLC198.cs" />
     <Compile Include="IntersectionOfTwoLinkedListLC160.cs" />
+    <Compile Include="JewelsAndStonesLC771.cs" />
     <Compile Include="KClosestPointsToOriginLC973.cs" />
     <Compile Include="LargestValuesFromLabelLC1090.cs" />
     <Compile Include="LastIndexOfCharsInAString.cs" />
+    <Compile Include="LettersCombinationLC17.cs" />
     <Compile Include="LevelOrderLC102.cs" />
     <Compile Include="LicenseKeyFormattingLC482.cs" />
     <Compile Include="ListNode.cs" />
     <Compile Include="LongestCommonPrefixLC14.cs" />
+    <Compile Include="LowestCommonAncestorBSTLC235.cs" />
+    <Compile Include="LowestCommonAncestorBTLC236.cs" />
     <Compile Include="MaxAreaLC11.cs" />
     <Compile Include="MaxAreaOfIslandLC695.cs" />
     <Compile Include="MergeKSortedListLC23.cs" />
