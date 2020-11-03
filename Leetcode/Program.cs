@@ -10,9 +10,19 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            LettersCombinationLC17 lettersCombinationLC17 = new LettersCombinationLC17();
-            var result = lettersCombinationLC17.LetterCombinations("279");
-            int dummy = 10;
+            ValidateParenthesisLC20 validateParenthesisLC20 = new ValidateParenthesisLC20();
+            validateParenthesisLC20.IsValid("()[]{}");
+
+            // FindTheDifferenceLC389 findTheDifferenceLC389 = new FindTheDifferenceLC389();
+            // findTheDifferenceLC389.FindTheDifference("abcd", "abcde");
+
+            //Console.WriteLine((char)('a' + 4));
+            
+            // ClimbStairsLC70 climbStairsLC70 = new ClimbStairsLC70();
+            // int result = climbStairsLC70.ClimbStairs(4);
+
+            //LettersCombinationLC17 lettersCombinationLC17 = new LettersCombinationLC17();
+            //var result = lettersCombinationLC17.LetterCombinations("279");
 
             //BinaryNumWithAltBitsLC693 binaryNumWithAltBitsLC693 = new BinaryNumWithAltBitsLC693();
             //binaryNumWithAltBitsLC693.HasAlternatingBits(6);
@@ -22,7 +32,7 @@ namespace Leetcode
 
             // RemoveDuplicatesFromSortedArrayLC26 removeDuplicatesFromSortedArrayLC26 = new RemoveDuplicatesFromSortedArrayLC26();
             // removeDuplicatesFromSortedArrayLC26.RemoveDuplicates(new int[] {1,1 });
-            
+
             //AddBinaryLC67 addBinaryLC67 = new AddBinaryLC67();
             //string res = addBinaryLC67.AddBinary("11", "1");
 
