@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// #RememberPattern
+// Read the comments for better understanding
+// Attaching picture.
+
 namespace Leetcode.LRUCache
 {
     public class LRUCacheLeetCode146

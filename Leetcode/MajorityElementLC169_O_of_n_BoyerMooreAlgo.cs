@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// #RememberPattern
+
 namespace Leetcode
 {
     public class MajorityElementLC169_O_of_n_BoyerMooreAlgo

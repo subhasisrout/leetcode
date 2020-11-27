@@ -10,14 +10,52 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            ValidateParenthesisLC20 validateParenthesisLC20 = new ValidateParenthesisLC20();
-            validateParenthesisLC20.IsValid("()[]{}");
+            ThirdMaxO_of_N_LC414 thirdMaxO_Of_N_LC414 = new ThirdMaxO_of_N_LC414();
+            var x = thirdMaxO_Of_N_LC414.ThirdMax(new int[] { 1, 2 });
+            int t = 1;
+
+            //SortedSquaresLC977 sortedSquaresLC977 = new SortedSquaresLC977();
+            //var x = sortedSquaresLC977.SortedSquares(new int[] { -1, 2, 2 });
+
+            //RemoveDuplicateLettersLC316 removeDuplicateLettersLC316 = new RemoveDuplicateLettersLC316();
+            //var x= removeDuplicateLettersLC316.RemoveDuplicateLetters("aaabbbcccddd");
+
+            //MaxConsecutiveOnesLC485 maxConsecutiveOnesLC485 = new MaxConsecutiveOnesLC485();
+            //maxConsecutiveOnesLC485.FindMaxConsecutiveOnes(new int[] { 1, 1, 0, 1, 1, 1 });
+
+
+//            CountServersThatCommunicateLC1267 countServersThatCommunicateLC1267 = new CountServersThatCommunicateLC1267();
+//            int[][] jaggedArray =
+//{
+//    new int[] { 1,0 },
+//    new int[] { 0,1 }
+//};
+            //countServersThatCommunicateLC1267.CountServers(jaggedArray);
+
+            //DesignTwitterLC355 designTwitterLC355 = new DesignTwitterLC355();
+            //designTwitterLC355.PostTweet(1, 1);
+            //var newsFeed1 = designTwitterLC355.GetNewsFeed(1);
+            //designTwitterLC355.Follow(2, 1);           
+            //var newsFeed2 = designTwitterLC355.GetNewsFeed(2);
+            //designTwitterLC355.Unfollow(1, 2);
+            //newsFeed2 = designTwitterLC355.GetNewsFeed(2);
+
+
+            // DFSInArrayGeneral dFSInArrayGeneral = new DFSInArrayGeneral();
+            // dFSInArrayGeneral.Subsets(new int[] {1,2,3 });
+            // dFSInArrayGeneral.SubsetsChar(new char[] {'a','b','c' });
+
+            //StringCompressionLC443 stringCompressionLC443 = new StringCompressionLC443();
+            //stringCompressionLC443.Compress(new char[] { 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a' });
+
+            // ValidateParenthesisLC20 validateParenthesisLC20 = new ValidateParenthesisLC20();
+            // validateParenthesisLC20.IsValid('()[]{}");
 
             // FindTheDifferenceLC389 findTheDifferenceLC389 = new FindTheDifferenceLC389();
             // findTheDifferenceLC389.FindTheDifference("abcd", "abcde");
 
             //Console.WriteLine((char)('a' + 4));
-            
+
             // ClimbStairsLC70 climbStairsLC70 = new ClimbStairsLC70();
             // int result = climbStairsLC70.ClimbStairs(4);
 
