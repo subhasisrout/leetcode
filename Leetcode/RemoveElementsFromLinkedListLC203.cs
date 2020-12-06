@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 // referred nick white video - https://www.youtube.com/watch?v=gfFn-OXxcgU
-// remember this pattern
+// RememberPattern
 // another pattern is to use the dummy/pre head in the beginning.
 namespace Leetcode
 {

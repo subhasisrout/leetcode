@@ -64,6 +64,7 @@
     <Compile Include="CombinationSum2LC40.cs" />
     <Compile Include="CombinationSumLC39.cs" />
     <Compile Include="ContainsDuplicate2LC219.cs" />
+    <Compile Include="ContiguousArrayLC525.cs" />
     <Compile Include="CountNegativeInSortedMatrixLC1351.cs" />
     <Compile Include="CountPrimesLC204.cs" />
     <Compile Include="CountServersThatCommunicateLC1267.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="DesignTwitterLC355.cs" />
     <Compile Include="DetectCapitalLC520.cs" />
     <Compile Include="DFSInArrayGeneral.cs" />
+    <Compile Include="FindDuplicateNumberLC287FloydCycleDetection.cs" />
     <Compile Include="FindPivotInShiftedSortedArray.cs" />
     <Compile Include="FindTheDifferenceLC389.cs" />
     <Compile Include="FlipImageLC832.cs" />
@@ -83,6 +85,7 @@
     <Compile Include="HammingDistanceLC461.cs" />
     <Compile Include="HappyNumberLC202.cs" />
     <Compile Include="HouseRobberLC198.cs" />
+    <Compile Include="InsertToBSTLC701.cs" />
     <Compile Include="IntersectionOfTwoLinkedListLC160.cs" />
     <Compile Include="JewelsAndStonesLC771.cs" />
     <Compile Include="KClosestPointsToOriginLC973.cs" />
@@ -101,6 +104,7 @@
     <Compile Include="MaxAreaOfIslandLC695.cs" />
     <Compile Include="MaxConsecutiveOnesIIILC1004.cs" />
     <Compile Include="MaxConsecutiveOnesLC485.cs" />
+    <Compile Include="MaxIncreaseToKeepCitySkylineLC807.cs" />
     <Compile Include="MergeKSortedListLC23.cs" />
     <Compile Include="MergeSortedListLC21.cs" />
     <Compile Include="MinCostToConnectSticksLC1167Premium.cs" />
@@ -133,6 +137,7 @@
     <Compile Include="SortedSquaresLC977.cs" />
     <Compile Include="StringCompressionLC443.cs" />
     <Compile Include="SubArraySumEqualsKLC560.cs" />
+    <Compile Include="SubrectangleQueriesLC1476.cs" />
     <Compile Include="SubsetsLC78.cs" />
     <Compile Include="SubtreeOfAnotherTreeLC572.cs" />
     <Compile Include="SumOfLeftLeavesLC404.cs" />
@@ -172,6 +177,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CombinationSum2LC40.jpg" />
+    <Content Include="ContiguousArrayLC525.jpg" />
     <Content Include="LRUCacheLeetCode146.jpg" />
     <Content Include="SubsetsLC78.jpg" />
   </ItemGroup>

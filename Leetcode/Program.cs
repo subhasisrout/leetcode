@@ -10,9 +10,12 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            ThirdMaxO_of_N_LC414 thirdMaxO_Of_N_LC414 = new ThirdMaxO_of_N_LC414();
-            var x = thirdMaxO_Of_N_LC414.ThirdMax(new int[] { 1, 2 });
-            int t = 1;
+            ContiguousArrayLC525 contiguousArrayLC525 = new ContiguousArrayLC525();
+            var result = contiguousArrayLC525.FindMaxLength(new int[] { 0, 0, 1, 0, 0, 0, 1, 1 });
+            int x = 10;
+
+            //ThirdMaxO_of_N_LC414 thirdMaxO_Of_N_LC414 = new ThirdMaxO_of_N_LC414();
+            //var x = thirdMaxO_Of_N_LC414.ThirdMax(new int[] { 1, 2 });
 
             //SortedSquaresLC977 sortedSquaresLC977 = new SortedSquaresLC977();
             //var x = sortedSquaresLC977.SortedSquares(new int[] { -1, 2, 2 });
