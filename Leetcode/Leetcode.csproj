@@ -65,7 +65,9 @@
     <Compile Include="CombinationSumLC39.cs" />
     <Compile Include="ContainsDuplicate2LC219.cs" />
     <Compile Include="ContiguousArrayLC525.cs" />
+    <Compile Include="CorpFlightBookingsLC1109.cs" />
     <Compile Include="CountNegativeInSortedMatrixLC1351.cs" />
+    <Compile Include="CountNumberOfTeamsLC1395.cs" />
     <Compile Include="CountPrimesLC204.cs" />
     <Compile Include="CountServersThatCommunicateLC1267.cs" />
     <Compile Include="DecodeWaysLC91.cs" />
@@ -73,6 +75,7 @@
     <Compile Include="DesignTwitterLC355.cs" />
     <Compile Include="DetectCapitalLC520.cs" />
     <Compile Include="DFSInArrayGeneral.cs" />
+    <Compile Include="EncodeDecodeTinyUrlLC535.cs" />
     <Compile Include="FindDuplicateNumberLC287FloydCycleDetection.cs" />
     <Compile Include="FindPivotInShiftedSortedArray.cs" />
     <Compile Include="FindTheDifferenceLC389.cs" />
@@ -96,6 +99,7 @@
     <Compile Include="LicenseKeyFormattingLC482.cs" />
     <Compile Include="ListNode.cs" />
     <Compile Include="LongestCommonPrefixLC14.cs" />
+    <Compile Include="LongestSubstringWithoutRepeatingCharsLC3.cs" />
     <Compile Include="LowestCommonAncestorBSTLC235.cs" />
     <Compile Include="LowestCommonAncestorBTLC236.cs" />
     <Compile Include="MajorityElementLC169_O_of_n_BoyerMooreAlgo.cs" />
@@ -104,7 +108,9 @@
     <Compile Include="MaxAreaOfIslandLC695.cs" />
     <Compile Include="MaxConsecutiveOnesIIILC1004.cs" />
     <Compile Include="MaxConsecutiveOnesLC485.cs" />
+    <Compile Include="MaximumBinaryTreeLC654.cs" />
     <Compile Include="MaxIncreaseToKeepCitySkylineLC807.cs" />
+    <Compile Include="MergeInBetweenLinkedListLC1669.cs" />
     <Compile Include="MergeKSortedListLC23.cs" />
     <Compile Include="MergeSortedListLC21.cs" />
     <Compile Include="MinCostToConnectSticksLC1167Premium.cs" />
@@ -121,6 +127,7 @@
     <Compile Include="PathSum2LC113.cs" />
     <Compile Include="PathSumLC112.cs" />
     <Compile Include="PeakElementLC162BinSearchVariant.cs" />
+    <Compile Include="PowerOfThreeLC326.cs" />
     <Compile Include="PriorityQueueFromCodeProject\PriorityQueue.cs" />
     <Compile Include="RangeSumBSTLC938.cs" />
     <Compile Include="RemoveDuplicateLettersLC316.cs" />

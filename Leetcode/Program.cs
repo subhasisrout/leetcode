@@ -10,9 +10,19 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            ContiguousArrayLC525 contiguousArrayLC525 = new ContiguousArrayLC525();
-            var result = contiguousArrayLC525.FindMaxLength(new int[] { 0, 0, 1, 0, 0, 0, 1, 1 });
-            int x = 10;
+            EncodeDecodeTinyUrlLC535 encodeDecodeTinyUrlLC535 = new EncodeDecodeTinyUrlLC535();
+            var x = encodeDecodeTinyUrlLC535.encode("abc");
+            int y = 10;
+
+            //MaximumBinaryTreeLC654 maximumBinaryTreeLC654 = new MaximumBinaryTreeLC654();
+            //maximumBinaryTreeLC654.ConstructMaximumBinaryTree(new int[] { 1, 3, 2 });
+
+            //CountNumberOfTeamsLC1395 countNumberOfTeamsLC1395 = new CountNumberOfTeamsLC1395();
+            //var x = countNumberOfTeamsLC1395.NumTeams(new int[] { 1,2,3,4 });
+
+            // ContiguousArrayLC525 contiguousArrayLC525 = new ContiguousArrayLC525();
+            // var result = contiguousArrayLC525.FindMaxLength(new int[] { 0, 0, 1, 0, 0, 0, 1, 1 });
+
 
             //ThirdMaxO_of_N_LC414 thirdMaxO_Of_N_LC414 = new ThirdMaxO_of_N_LC414();
             //var x = thirdMaxO_Of_N_LC414.ThirdMax(new int[] { 1, 2 });
@@ -27,12 +37,12 @@ namespace Leetcode
             //maxConsecutiveOnesLC485.FindMaxConsecutiveOnes(new int[] { 1, 1, 0, 1, 1, 1 });
 
 
-//            CountServersThatCommunicateLC1267 countServersThatCommunicateLC1267 = new CountServersThatCommunicateLC1267();
-//            int[][] jaggedArray =
-//{
-//    new int[] { 1,0 },
-//    new int[] { 0,1 }
-//};
+            //            CountServersThatCommunicateLC1267 countServersThatCommunicateLC1267 = new CountServersThatCommunicateLC1267();
+            //            int[][] jaggedArray =
+            //{
+            //    new int[] { 1,0 },
+            //    new int[] { 0,1 }
+            //};
             //countServersThatCommunicateLC1267.CountServers(jaggedArray);
 
             //DesignTwitterLC355 designTwitterLC355 = new DesignTwitterLC355();
