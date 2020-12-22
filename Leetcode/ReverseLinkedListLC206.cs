@@ -21,7 +21,7 @@ namespace Leetcode
                 next = current.next;
                 current.next = prev;
                 prev = current;
-                current = current.next;
+                current = next;
             }
 
             head = prev;

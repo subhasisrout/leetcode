@@ -3,6 +3,7 @@ using PriorityQueueFromCodeProject;
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using System.Threading;
 
 namespace Leetcode
 {
@@ -10,9 +11,13 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            EncodeDecodeTinyUrlLC535 encodeDecodeTinyUrlLC535 = new EncodeDecodeTinyUrlLC535();
-            var x = encodeDecodeTinyUrlLC535.encode("abc");
-            int y = 10;
+
+            PrintFooBarAlternatelyLC1115 printFooBarAlternatelyLC1115 = new PrintFooBarAlternatelyLC1115(5);
+            Thread t1 = new Thread(() => printFooBarAlternatelyLC1115.Foo(() => { Console.WriteLine("Foo"); }));
+            Thread t2 = new Thread(() => printFooBarAlternatelyLC1115.Bar(() => { Console.WriteLine("Bar"); }));
+            t1.Start();
+            t2.Start();
+
 
             //MaximumBinaryTreeLC654 maximumBinaryTreeLC654 = new MaximumBinaryTreeLC654();
             //maximumBinaryTreeLC654.ConstructMaximumBinaryTree(new int[] { 1, 3, 2 });

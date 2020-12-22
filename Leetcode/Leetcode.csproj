@@ -128,6 +128,7 @@
     <Compile Include="PathSumLC112.cs" />
     <Compile Include="PeakElementLC162BinSearchVariant.cs" />
     <Compile Include="PowerOfThreeLC326.cs" />
+    <Compile Include="PrintFooBarAlternatelyLC1115.cs" />
     <Compile Include="PriorityQueueFromCodeProject\PriorityQueue.cs" />
     <Compile Include="RangeSumBSTLC938.cs" />
     <Compile Include="RemoveDuplicateLettersLC316.cs" />
@@ -148,6 +149,7 @@
     <Compile Include="SubsetsLC78.cs" />
     <Compile Include="SubtreeOfAnotherTreeLC572.cs" />
     <Compile Include="SumOfLeftLeavesLC404.cs" />
+    <Compile Include="SumOfSubArrayMinimumsLC907.cs" />
     <Compile Include="SymmetricTreeLC101.cs" />
     <Compile Include="ThirdMaxO_of_N_LC414.cs" />
     <Compile Include="TwoSumLC1UsingDictionary.cs" />
