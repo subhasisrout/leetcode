@@ -11,12 +11,20 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
+            DetermineIfStringsAreCloseLC1657 determineIfStringsAreCloseLC1657 = new DetermineIfStringsAreCloseLC1657();
+            determineIfStringsAreCloseLC1657.CloseStrings("a", "aa");
 
-            PrintFooBarAlternatelyLC1115 printFooBarAlternatelyLC1115 = new PrintFooBarAlternatelyLC1115(5);
-            Thread t1 = new Thread(() => printFooBarAlternatelyLC1115.Foo(() => { Console.WriteLine("Foo"); }));
-            Thread t2 = new Thread(() => printFooBarAlternatelyLC1115.Bar(() => { Console.WriteLine("Bar"); }));
-            t1.Start();
-            t2.Start();
+            // FindCommonCharsLC1002 findCommonCharsLC1002 = new FindCommonCharsLC1002();
+            // findCommonCharsLC1002.CommonChars(new string[] { "bella", "label","roller" });
+
+            // PermutationOfCharsUsingCase permutationOfCharsUsingCase = new PermutationOfCharsUsingCase();
+            // var result = permutationOfCharsUsingCase.Permutations("abc");
+
+            //PrintFooBarAlternatelyLC1115 printFooBarAlternatelyLC1115 = new PrintFooBarAlternatelyLC1115(5);
+            //Thread t1 = new Thread(() => printFooBarAlternatelyLC1115.Foo(() => { Console.WriteLine("Foo"); }));
+            //Thread t2 = new Thread(() => printFooBarAlternatelyLC1115.Bar(() => { Console.WriteLine("Bar"); }));
+            //t1.Start();
+            //t2.Start();
 
 
             //MaximumBinaryTreeLC654 maximumBinaryTreeLC654 = new MaximumBinaryTreeLC654();

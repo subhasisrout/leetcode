@@ -36,7 +36,7 @@ namespace Leetcode
             // +26 and +52 is done so that 'a' should NOT BE EQUAL 'A' which in turn is not equal to '0'
             for (int i = 0; i < shortUrl.Length; i++)
             {
-                if (shortUrl[i] >= 'a' && shortUrl[i] <= 'a')
+                if (shortUrl[i] >= 'a' && shortUrl[i] <= 'z')
                     id = id * 62 + shortUrl[i] - 'a';
                 if (shortUrl[i] >= 'A' && shortUrl[i] <= 'Z')
                     id = id * 62 + shortUrl[i] - 'A' + 26;

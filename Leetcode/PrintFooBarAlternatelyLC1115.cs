@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Threading;
 
+// #RememberPattern
 // #ThreadSynchronization
 // #ThreadSignalling
 // #AutoResetEvent
+// #SimilarToLC1114
 
 namespace Leetcode
 {

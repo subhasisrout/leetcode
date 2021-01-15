@@ -23,7 +23,7 @@ namespace Leetcode
                     dict[c] = 1;
             }
 
-            var kvPair = dict.OrderByDescending(x => x.Value);
+            var kvPair = dict.OrderByDescending(x => x.Value); // #line to remember
 
             StringBuilder result = new StringBuilder();
             foreach (var item in kvPair)
