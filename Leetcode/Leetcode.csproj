@@ -49,6 +49,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FirstDuplicateAE.cs" />
+    <Compile Include="LevenshteinDistanceMediumAE.cs" />
+    <Compile Include="LongestMountainLC845AE.cs" />
+    <Compile Include="PermutationsLC46AE.cs" />
+    <Compile Include="ProductSumAE.cs" />
+    <Compile Include="SpiralMatrixLC54.cs" />
+    <Compile Include="ThreeNumSumLC15.cs" />
     <Compile Include="AddBinaryLC67.cs" />
     <Compile Include="AddStringsLC415.cs" />
     <Compile Include="AsteroidCollisionLC735.cs" />
@@ -65,6 +72,8 @@
     <Compile Include="CombinationSumLC39.cs" />
     <Compile Include="ContainsDuplicate2LC219.cs" />
     <Compile Include="ContiguousArrayLC525.cs" />
+    <Compile Include="ConvertSortedArrayToBSTLC108.cs" />
+    <Compile Include="ConvertSortedLinkedListToBalancedBSTLC109.cs" />
     <Compile Include="CorpFlightBookingsLC1109.cs" />
     <Compile Include="CountNegativeInSortedMatrixLC1351.cs" />
     <Compile Include="CountNumberOfTeamsLC1395.cs" />
@@ -119,6 +128,7 @@
     <Compile Include="MergeInBetweenLinkedListLC1669.cs" />
     <Compile Include="MergeKSortedListLC23.cs" />
     <Compile Include="MergeSortedListLC21.cs" />
+    <Compile Include="MiddleOfLinkedListLC876.cs" />
     <Compile Include="MinCostToConnectSticksLC1167Premium.cs" />
     <Compile Include="MinDaysToMakeMBouquetsLC1482.cs" />
     <Compile Include="MinimumDominoRotationLC1007.cs" />
@@ -161,9 +171,11 @@
     <Compile Include="SubsetsLC78.cs" />
     <Compile Include="SubtreeOfAnotherTreeLC572.cs" />
     <Compile Include="SumOfLeftLeavesLC404.cs" />
+    <Compile Include="SumOfRootToLeafLC1022.cs" />
     <Compile Include="SumOfSubArrayMinimumsLC907.cs" />
     <Compile Include="SymmetricTreeLC101.cs" />
     <Compile Include="ThirdMaxO_of_N_LC414.cs" />
+    <Compile Include="TrappingRainWaterLC42.cs" />
     <Compile Include="TwoSumLC1UsingDictionary.cs" />
     <Compile Include="UniqueEmailAddressLC929.cs" />
     <Compile Include="UniquePathsLC62.cs" />

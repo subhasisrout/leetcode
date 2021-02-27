@@ -11,8 +11,20 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            DetermineIfStringsAreCloseLC1657 determineIfStringsAreCloseLC1657 = new DetermineIfStringsAreCloseLC1657();
-            determineIfStringsAreCloseLC1657.CloseStrings("a", "aa");
+            ProductSumAE productSumAE = new ProductSumAE();
+            productSumAE.ProductSum(new List<object>() { 5, 2, new List<object>() {7, -1 }, 3, });
+
+            //FirstDuplicateAE firstDuplicateAE = new FirstDuplicateAE();
+            //firstDuplicateAE.FirstDuplicateValue(new int[] { 2, 1, 5, 2, 3, 3, 4 });
+
+            //PermutationsLC46AE permutationsLC46AE = new PermutationsLC46AE();
+            //permutationsLC46AE.Permute(new int[] { 1, 2, 3 });
+
+            //ThreeNumSumLC15 threeNumSumLC15 = new ThreeNumSumLC15();
+            //threeNumSumLC15.ThreeSum(new int[] { 0, 0, 0 });
+
+            //DetermineIfStringsAreCloseLC1657 determineIfStringsAreCloseLC1657 = new DetermineIfStringsAreCloseLC1657();
+            //determineIfStringsAreCloseLC1657.CloseStrings("a", "aa");
 
             // FindCommonCharsLC1002 findCommonCharsLC1002 = new FindCommonCharsLC1002();
             // findCommonCharsLC1002.CommonChars(new string[] { "bella", "label","roller" });

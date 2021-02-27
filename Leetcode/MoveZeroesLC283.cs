@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// #Similar question from AlgoExpert - you dont need to maintain the 
+// order of other elements. To do that, you can use 2 pointers (i pointing to 0)
+// and j (pointing to length - 1). i++ and j-- accordingly.
 
 namespace Leetcode
 {

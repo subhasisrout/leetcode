@@ -1,6 +1,5 @@
 ﻿// #TODO Absorb intuition
 // #Looks like a pattern
-// #NotWorking
 
 using System;
 using System.Collections.Generic;
@@ -13,18 +12,18 @@ namespace Leetcode
         {
             int n = A.Length;
             int[] B = new int[n];
-            for (int i = 0; i < A.Length; i++)
+            for (int i = 0; i < A.Length; ++i)
             {
                 B[i] = i;
             }
             Array.Sort(B, new IndexPositionValueComparer(A));
 
             int ans = 0;
-            int minIdx = B[0];
+            int m = n;
             for (int i = 0; i < B.Length; i++)
             {
-                ans = Math.Max(ans, B[i] - minIdx);
-                minIdx = Math.Min(minIdx, B[i]);
+                ans = Math.Max(ans, B[i] - m);
+                m = Math.Min(m, B[i]);
             }
             return ans;
         }
@@ -38,7 +37,9 @@ namespace Leetcode
         }
         public int Compare(int x, int y)
         {
-            return A[x] - A[y];
+            if (A[x] != A[y])
+                return A[x].CompareTo(A[y]);
+            return x.CompareTo(y);
         }
     }
 }

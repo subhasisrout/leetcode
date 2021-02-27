@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Kevin's solution is more concise and clear.
+// #AlgoExpert (present there too)
 
-// Kevin's solution is more concise and clear.
 namespace Leetcode
 {
     public class MonotonicArrayLC896
@@ -69,5 +65,34 @@ namespace Leetcode
 
 
         }
+
+        // Below solution (elegant) is written by me
+        public bool IsMonotonicAE(int[] array)
+        {
+            int monotonicIndicator = 0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (i == 0)
+                    continue;
+
+                if (array[i] > array[i - 1])
+                {
+                    if (monotonicIndicator == -1) return false;
+                    monotonicIndicator = 1;
+                }
+                else if (array[i] < array[i - 1])
+                {
+                    if (monotonicIndicator == 1) return false;
+                    monotonicIndicator = -1;
+                }
+                // else equal element would result in	
+                // monotonicInd 0 as it is initialized to 0;
+            }
+            return true;
+        }
     }
+
+    
+
+
 }
