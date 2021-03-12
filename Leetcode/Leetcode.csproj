@@ -55,6 +55,7 @@
     <Compile Include="HasSingleCycleAE.cs" />
     <Compile Include="LevenshteinDistanceMediumAE.cs" />
     <Compile Include="LongestMountainLC845AE.cs" />
+    <Compile Include="LongestPalindromicSubStringAE.cs" />
     <Compile Include="NonConstructibleChangeAE.cs" />
     <Compile Include="PermutationsLC46AE.cs" />
     <Compile Include="ProductSumAE.cs" />

@@ -11,7 +11,7 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            var sizes = RiverSizesAE.RiverSizes(new int[,] { { 1 } });
+            var s = LongestPalindromicSubStringAE.LongestPalindromicSubstring("abaxyzzyxf");
 
 
             //HasSingleCycleAE hasSingleCycleAE = new HasSingleCycleAE();
