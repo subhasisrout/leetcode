@@ -49,11 +49,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayOfProductsExceptSelfLC234AE.cs" />
+    <Compile Include="ClimbStairsLC70AE.cs" />
     <Compile Include="FirstDuplicateAE.cs" />
+    <Compile Include="HasSingleCycleAE.cs" />
     <Compile Include="LevenshteinDistanceMediumAE.cs" />
     <Compile Include="LongestMountainLC845AE.cs" />
+    <Compile Include="NonConstructibleChangeAE.cs" />
     <Compile Include="PermutationsLC46AE.cs" />
     <Compile Include="ProductSumAE.cs" />
+    <Compile Include="ReverseWordsInStringAE.cs" />
+    <Compile Include="RiverSizesAE.cs" />
+    <Compile Include="SearchInSortedMatrixAE.cs" />
+    <Compile Include="SearchInSpiralSortedMatrixActualInterview1.cs" />
     <Compile Include="SpiralMatrixLC54.cs" />
     <Compile Include="ThreeNumSumLC15.cs" />
     <Compile Include="AddBinaryLC67.cs" />

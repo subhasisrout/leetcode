@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+// #AE
+// Easier and more intuitive version in Algo Expert
 
 namespace Leetcode
 {
@@ -65,6 +64,30 @@ namespace Leetcode
 
 
             return result;
+        }
+
+
+        //Below is from AlgoExpert (much easier to understand)
+        public int[] SortedSquaredArray(int[] nums)
+        {
+            int[] result = new int[nums.Length];
+            int small = 0;
+            int big = nums.Length - 1;
+            for (int i = nums.Length - 1; i >= 0; i--)
+            {
+                if (Math.Abs(nums[small]) >= Math.Abs(nums[big]))
+                {
+                    result[i] = nums[small] * nums[small];
+                    small++;
+                }
+                else
+                {
+                    result[i] = nums[big] * nums[big];
+                    big--;
+                }
+            }
+            return result;
+
         }
     }
 }

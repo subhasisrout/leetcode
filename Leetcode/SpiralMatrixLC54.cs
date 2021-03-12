@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-
+// #AE
 namespace Leetcode
 {
     public class SpiralMatrixLC54
@@ -42,38 +42,6 @@ namespace Leetcode
                 ec--;
             }
             return result;
-        }
-
-        private void SpiralOrderHelper(int[][] matrix, IList<int> result, int row, int col, int startRow, int startCol, int endRow, int endCol)
-        {
-            if (row >= matrix.Length || row < 0 || col >= matrix[0].Length || col < 0 || startRow > endRow || startCol > endCol)
-                return;
-
-            result.Add(matrix[row][col]);
-
-            if (row == 0 && col != matrix[0].Length - 1)
-                col++;
-            else if (row == 0 && col == matrix[0].Length - 1)
-                row++;
-            else if (col == matrix[0].Length - 1 && row != matrix.Length - 1)
-                row++;
-            else if (col == matrix[0].Length - 1 && row == matrix.Length - 1)
-                col--;
-            else if (row == matrix.Length - 1 && col != 0)
-                col--;
-            else if (row == matrix.Length - 1 && col == 0)
-                row--;
-            else if (col == 0 && row != 0)
-                row--;
-            else if (col == endCol && row == endRow)
-            {
-                startRow++;
-                startCol++;
-                endRow++;
-                endCol++;
-            }
-
-            SpiralOrderHelper(matrix, result, row, col, startRow, startCol, endRow, endCol);
         }
     
     }

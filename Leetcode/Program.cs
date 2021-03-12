@@ -11,8 +11,15 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            ProductSumAE productSumAE = new ProductSumAE();
-            productSumAE.ProductSum(new List<object>() { 5, 2, new List<object>() {7, -1 }, 3, });
+            var sizes = RiverSizesAE.RiverSizes(new int[,] { { 1 } });
+
+
+            //HasSingleCycleAE hasSingleCycleAE = new HasSingleCycleAE();
+            //hasSingleCycleAE.HasSingleCycle(new int[] { 1, 2, 3, 4, -2, 3, 7, 8, -26 });
+
+
+            //ProductSumAE productSumAE = new ProductSumAE();
+            //productSumAE.ProductSum(new List<object>() { 5, 2, new List<object>() {7, -1 }, 3, });
 
             //FirstDuplicateAE firstDuplicateAE = new FirstDuplicateAE();
             //firstDuplicateAE.FirstDuplicateValue(new int[] { 2, 1, 5, 2, 3, 3, 4 });

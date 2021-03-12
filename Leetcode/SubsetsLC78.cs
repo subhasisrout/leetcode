@@ -11,6 +11,8 @@ using System.Threading.Tasks;
 // #DFS #Backtrack #Graph
 // #RememberPattern
 
+// #AE #AlgoExpert (Goes by the name of "Powerset"). Very intuitive iterative solution.
+
 namespace Leetcode
 {
     public class SubsetsLC78
@@ -31,6 +33,25 @@ namespace Leetcode
                 dfsAndBackTrack(i + 1, nums, current);
                 current.RemoveAt(current.Count - 1);
             }
+        }
+
+        // #VERYINTUITIVE
+        public List<List<int>> Powerset(List<int> array)
+        {
+            List<List<int>> result = new List<List<int>>();
+            result.Add(new List<int>());
+
+            for (int i = 0; i < array.Count; i++)
+            {
+                int currentCount = result.Count; //Only loop through existing number of elements in "result" and "add" the currentNum to it.
+                for (int j = 0; j < currentCount; j++)
+                {
+                    var currentEntry = new List<int>(result[j]);
+                    currentEntry.Add(array[i]);
+                    result.Add(currentEntry);
+                }
+            }
+            return result;
         }
     }
 }
