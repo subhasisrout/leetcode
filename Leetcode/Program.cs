@@ -11,7 +11,7 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            var s = LongestPalindromicSubStringAE.LongestPalindromicSubstring("abaxyzzyxf");
+            var s = LongestPalindromicSubStringAE.LongestPalindromicSubstring("babad");
 
 
             //HasSingleCycleAE hasSingleCycleAE = new HasSingleCycleAE();

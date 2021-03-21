@@ -53,9 +53,14 @@
     <Compile Include="ClimbStairsLC70AE.cs" />
     <Compile Include="FirstDuplicateAE.cs" />
     <Compile Include="HasSingleCycleAE.cs" />
+    <Compile Include="ImplementTrieLC208.cs" />
+    <Compile Include="LargestRangeAE.cs" />
     <Compile Include="LevenshteinDistanceMediumAE.cs" />
+    <Compile Include="LongestCommonSubsequenceAE.cs" />
     <Compile Include="LongestMountainLC845AE.cs" />
     <Compile Include="LongestPalindromicSubStringAE.cs" />
+    <Compile Include="MinimumNumberOfJumpsAE.cs" />
+    <Compile Include="MinimumRewardsAE.cs" />
     <Compile Include="NonConstructibleChangeAE.cs" />
     <Compile Include="PermutationsLC46AE.cs" />
     <Compile Include="ProductSumAE.cs" />
@@ -64,6 +69,7 @@
     <Compile Include="SearchInSortedMatrixAE.cs" />
     <Compile Include="SearchInSpiralSortedMatrixActualInterview1.cs" />
     <Compile Include="SpiralMatrixLC54.cs" />
+    <Compile Include="TaskAssignmentAE.cs" />
     <Compile Include="ThreeNumSumLC15.cs" />
     <Compile Include="AddBinaryLC67.cs" />
     <Compile Include="AddStringsLC415.cs" />
