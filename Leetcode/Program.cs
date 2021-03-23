@@ -11,8 +11,10 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            var s = LongestPalindromicSubStringAE.LongestPalindromicSubstring("babad");
+            int[] selectionSortedNumsAE = SelectionSortAE.SelectionSort(new int[] {8, 5, 2, 9, 5, 6, 3 });
+            int[] insertionSortedNumsAE = InsertionSortAE.InsertionSort(new int[] { 8, 5, 2, 9, 5, 6, 3 });
 
+            //var s = LongestPalindromicSubStringAE.LongestPalindromicSubstring("babad");
 
             //HasSingleCycleAE hasSingleCycleAE = new HasSingleCycleAE();
             //hasSingleCycleAE.HasSingleCycle(new int[] { 1, 2, 3, 4, -2, 3, 7, 8, -26 });
