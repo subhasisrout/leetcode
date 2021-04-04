@@ -63,6 +63,7 @@
     <Compile Include="IndexEqualsValueAE.cs" />
     <Compile Include="InsertionSortAE.cs" />
     <Compile Include="KthLargestElementLC215.cs" />
+    <Compile Include="LaptopRentalsAE.cs" />
     <Compile Include="LargestRangeAE.cs" />
     <Compile Include="LevenshteinDistanceMediumAE.cs" />
     <Compile Include="LongestCommonSubsequenceAE.cs" />
