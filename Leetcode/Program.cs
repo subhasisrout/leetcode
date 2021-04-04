@@ -11,8 +11,21 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            int[] selectionSortedNumsAE = SelectionSortAE.SelectionSort(new int[] {8, 5, 2, 9, 5, 6, 3 });
-            int[] insertionSortedNumsAE = InsertionSortAE.InsertionSort(new int[] { 8, 5, 2, 9, 5, 6, 3 });
+            NumberOfWaysToTraverseGraphAE numberOfWaysToTraverseGraphAE = new NumberOfWaysToTraverseGraphAE();
+            var result = numberOfWaysToTraverseGraphAE.NumberOfWaysToTraverseGraph(3,4);
+
+            //var result = FourNumberSumAE.FourNumberSum(new int[] { -2, -1, -1, 1, 1, 2, 2 }, 0);
+
+            // var result = FourNumberSumAE.FourNumberSum(new int[] { 7, 6, 4, -1, 1, 2 }, 16);
+
+            //FindPivotInShiftedSortedArray findPivotInShiftedSorted = new FindPivotInShiftedSortedArray();
+            //var pivot = findPivotInShiftedSorted.FindPivot(new int[] { 1, 2, 3 });
+
+            //ValidIPAddressesAE validIPAddressesAE = new ValidIPAddressesAE();
+            //var result = validIPAddressesAE.ValidIPAddresses("0279245587303");
+
+            //int[] selectionSortedNumsAE = SelectionSortAE.SelectionSort(new int[] {8, 5, 2, 9, 5, 6, 3 });
+            //int[] insertionSortedNumsAE = InsertionSortAE.InsertionSort(new int[] { 8, 5, 2, 9, 5, 6, 3 });
 
             //var s = LongestPalindromicSubStringAE.LongestPalindromicSubstring("babad");
 

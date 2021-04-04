@@ -53,24 +53,34 @@
     <Compile Include="BinaryTreeDiameterAE.cs" />
     <Compile Include="BubbleSortAE.cs" />
     <Compile Include="ClimbStairsLC70AE.cs" />
+    <Compile Include="CycleInGraphAE.cs" />
     <Compile Include="FirstDuplicateAE.cs" />
+    <Compile Include="FourNumberSumLC18.cs" />
+    <Compile Include="FourNumberSumAE.cs" />
     <Compile Include="HasSingleCycleAE.cs" />
     <Compile Include="HeightBalancedBinaryTreeAE.cs" />
     <Compile Include="ImplementTrieLC208.cs" />
+    <Compile Include="IndexEqualsValueAE.cs" />
     <Compile Include="InsertionSortAE.cs" />
+    <Compile Include="KthLargestElementLC215.cs" />
     <Compile Include="LargestRangeAE.cs" />
     <Compile Include="LevenshteinDistanceMediumAE.cs" />
     <Compile Include="LongestCommonSubsequenceAE.cs" />
     <Compile Include="LongestMountainLC845AE.cs" />
     <Compile Include="LongestPalindromicSubStringAE.cs" />
+    <Compile Include="MergeOverlappingIntervalsAE.cs" />
     <Compile Include="MinimumNumberOfJumpsAE.cs" />
     <Compile Include="MinimumRewardsAE.cs" />
     <Compile Include="NonConstructibleChangeAE.cs" />
     <Compile Include="NumberOfWaysToMakeChangeLE.cs" />
+    <Compile Include="NumberOfWaysToTraverseGraphAE.cs" />
     <Compile Include="PermutationsLC46AE.cs" />
     <Compile Include="ProductSumAE.cs" />
+    <Compile Include="QuickSelectAE.cs" />
+    <Compile Include="QuickSortAE.cs" />
     <Compile Include="ReverseWordsInStringAE.cs" />
     <Compile Include="RiverSizesAE.cs" />
+    <Compile Include="SearchInRotatedSortedArrayLC33.cs" />
     <Compile Include="SearchInSortedMatrixAE.cs" />
     <Compile Include="SearchInSpiralSortedMatrixActualInterview1.cs" />
     <Compile Include="SelectionSortAE.cs" />
@@ -196,9 +206,12 @@
     <Compile Include="SumOfSubArrayMinimumsLC907.cs" />
     <Compile Include="SymmetricTreeLC101.cs" />
     <Compile Include="ThirdMaxO_of_N_LC414.cs" />
+    <Compile Include="CourseScheduleLC210.cs" />
+    <Compile Include="TopologicalSortAE.cs" />
     <Compile Include="TrappingRainWaterLC42.cs" />
     <Compile Include="TwoSumLC1UsingDictionary.cs" />
     <Compile Include="UniqueEmailAddressLC929.cs" />
+    <Compile Include="UniquePathsIILC63.cs" />
     <Compile Include="UniquePathsLC62.cs" />
     <Compile Include="ValidAnagramLC242.cs" />
     <Compile Include="IsSubsequenceLC392.cs" />
@@ -219,6 +232,7 @@
     <Compile Include="TreeNode.cs" />
     <Compile Include="ValidateBSTLC98.cs" />
     <Compile Include="ValidateParenthesisLC20.cs" />
+    <Compile Include="ValidIPAddressesAE.cs" />
     <Compile Include="ValidMountainArrayLC941.cs" />
     <Compile Include="ValidPalindrome2LC680.cs" />
     <Compile Include="ValidPalindromeLC125.cs" />
@@ -234,6 +248,7 @@
     <Content Include="ContiguousArrayLC525.jpg" />
     <Content Include="LRUCacheLeetCode146.jpg" />
     <Content Include="SubsetsLC78.jpg" />
+    <Content Include="TopologicalSortAE.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
