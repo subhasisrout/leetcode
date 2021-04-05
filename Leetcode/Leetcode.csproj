@@ -65,11 +65,14 @@
     <Compile Include="KthLargestElementLC215.cs" />
     <Compile Include="LaptopRentalsAE.cs" />
     <Compile Include="LargestRangeAE.cs" />
+    <Compile Include="LargestRectangleInHistogramLC84.cs" />
+    <Compile Include="LargestRectangleUnderSkyline.cs" />
     <Compile Include="LevenshteinDistanceMediumAE.cs" />
     <Compile Include="LongestCommonSubsequenceAE.cs" />
     <Compile Include="LongestMountainLC845AE.cs" />
     <Compile Include="LongestPalindromicSubStringAE.cs" />
     <Compile Include="MergeOverlappingIntervalsAE.cs" />
+    <Compile Include="MinHeapConstructionAE.cs" />
     <Compile Include="MinimumNumberOfJumpsAE.cs" />
     <Compile Include="MinimumRewardsAE.cs" />
     <Compile Include="NonConstructibleChangeAE.cs" />
