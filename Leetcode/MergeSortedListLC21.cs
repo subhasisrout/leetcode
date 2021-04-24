@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Present in #AlgoExpert #AE too, but approaches from @Kevin Naughton Jr and #Michael Muinos are better
 
 namespace Leetcode
 {
@@ -86,7 +82,7 @@ namespace Leetcode
 
         }
 
-        //Better polished version from youtube - kevin naughton jr
+        //Better polished version from youtube - kevin naughton jr. Similar by Micheal Muinos
         public ListNode MergeTwoLists(ListNode l1, ListNode l2)
         {
             ListNode dummy = new ListNode(-1);

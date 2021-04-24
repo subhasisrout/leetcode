@@ -11,8 +11,20 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            NumberOfWaysToTraverseGraphAE numberOfWaysToTraverseGraphAE = new NumberOfWaysToTraverseGraphAE();
-            var result = numberOfWaysToTraverseGraphAE.NumberOfWaysToTraverseGraph(3,4);
+            List<List<int>> arrays = new List<List<int>>()
+            {
+                new List<int>(){1,5,9,21},
+                new List<int>(){-1,0},
+                new List<int>(){-124,81,121},
+                new List<int>(){3,6,12,20,150},
+            };
+            Leetcode3.MergeKSortedArraysAE.MergeSortedArrays(arrays);
+
+            //FindAllDuplicatesInArrayLC442 findAllDuplicatesInArrayLC442 = new FindAllDuplicatesInArrayLC442();
+            //var result = findAllDuplicatesInArrayLC442.FindDuplicates(new int[] { 10, 2, 5, 10, 9, 1, 1, 4, 3, 7 });
+
+            // NumberOfWaysToTraverseGraphAE numberOfWaysToTraverseGraphAE = new NumberOfWaysToTraverseGraphAE();
+            // var result = numberOfWaysToTraverseGraphAE.NumberOfWaysToTraverseGraph(3,4);
 
             //var result = FourNumberSumAE.FourNumberSum(new int[] { -2, -1, -1, 1, 1, 2, 2 }, 0);
 
