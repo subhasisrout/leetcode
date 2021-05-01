@@ -53,8 +53,11 @@
     <Compile Include="BinaryTreeDiameterAE.cs" />
     <Compile Include="BubbleSortAE.cs" />
     <Compile Include="ClimbStairsLC70AE.cs" />
+    <Compile Include="ConstructBinaryTreeFromPreOrderAndInOrderLC105.cs" />
+    <Compile Include="ConstructBSTFromPreOrderLC1008.cs" />
     <Compile Include="CycleInGraphAE.cs" />
     <Compile Include="FindAllDuplicatesInArrayLC442.cs" />
+    <Compile Include="FindBinaryTreeSuccessorAE.cs" />
     <Compile Include="FirstDuplicateAE.cs" />
     <Compile Include="FourNumberSumLC18.cs" />
     <Compile Include="FourNumberSumAE.cs" />
@@ -89,6 +92,7 @@
     <Compile Include="ProductSumAE.cs" />
     <Compile Include="QuickSelectAE.cs" />
     <Compile Include="QuickSortAE.cs" />
+    <Compile Include="ReconstructBSTAE.cs" />
     <Compile Include="RelativeSortArrayLC1122.cs" />
     <Compile Include="RemoveKthNodeFromEndAE.cs" />
     <Compile Include="ReverseWordsInStringAE.cs" />

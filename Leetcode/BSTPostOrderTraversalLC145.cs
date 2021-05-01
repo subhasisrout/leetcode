@@ -1,7 +1,5 @@
 ﻿using System.Collections.Generic;
 
-//TODO - Solve this iteratively using stack.
-
 namespace Leetcode
 {
     public class BSTPostOrderTraversalLC145
