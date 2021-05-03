@@ -11,14 +11,19 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            List<List<int>> arrays = new List<List<int>>()
-            {
-                new List<int>(){1,5,9,21},
-                new List<int>(){-1,0},
-                new List<int>(){-124,81,121},
-                new List<int>(){3,6,12,20,150},
-            };
-            Leetcode3.MergeKSortedArraysAE.MergeSortedArrays(arrays);
+            CanCompleteCircuitLC134 canCompleteCircuitLC134 = new CanCompleteCircuitLC134();
+            canCompleteCircuitLC134.CanCompleteCircuit(new[] { 5,1,2,3,4 }, new int[] { 4,4,1,5,1 });
+
+            //SubArraySortAE.SubarraySort(new int[] { 1, 2, 4, 7, 10, 11, 7, 12, 6, 7, 16, 18, 19 });
+
+            //List<List<int>> arrays = new List<List<int>>()
+            //{
+            //    new List<int>(){1,5,9,21},
+            //    new List<int>(){-1,0},
+            //    new List<int>(){-124,81,121},
+            //    new List<int>(){3,6,12,20,150},
+            //};
+            //Leetcode3.MergeKSortedArraysAE.MergeSortedArrays(arrays);
 
             //FindAllDuplicatesInArrayLC442 findAllDuplicatesInArrayLC442 = new FindAllDuplicatesInArrayLC442();
             //var result = findAllDuplicatesInArrayLC442.FindDuplicates(new int[] { 10, 2, 5, 10, 9, 1, 1, 4, 3, 7 });

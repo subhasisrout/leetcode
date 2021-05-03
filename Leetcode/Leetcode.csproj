@@ -52,6 +52,7 @@
     <Compile Include="ArrayOfProductsExceptSelfLC234AE.cs" />
     <Compile Include="BinaryTreeDiameterAE.cs" />
     <Compile Include="BubbleSortAE.cs" />
+    <Compile Include="CanCompleteCircuitLC134.cs" />
     <Compile Include="ClimbStairsLC70AE.cs" />
     <Compile Include="ConstructBinaryTreeFromPreOrderAndInOrderLC105.cs" />
     <Compile Include="ConstructBSTFromPreOrderLC1008.cs" />
@@ -102,8 +103,11 @@
     <Compile Include="SearchInSortedMatrixAE.cs" />
     <Compile Include="SearchInSpiralSortedMatrixActualInterview1.cs" />
     <Compile Include="SelectionSortAE.cs" />
+    <Compile Include="ShortestUnsortedContinuousSubarrayLC581.cs" />
+    <Compile Include="SortKSortedArrayAE.cs" />
     <Compile Include="SortStackRecursiveAE.cs" />
     <Compile Include="SpiralMatrixLC54.cs" />
+    <Compile Include="SubArraySortAE.cs" />
     <Compile Include="SunsetViewsAE.cs" />
     <Compile Include="TaskAssignmentAE.cs" />
     <Compile Include="ThreeNumberSortAE.cs" />
@@ -257,6 +261,7 @@
     <Compile Include="ValidMountainArrayLC941.cs" />
     <Compile Include="ValidPalindrome2LC680.cs" />
     <Compile Include="ValidPalindromeLC125.cs" />
+    <Compile Include="ValidStartingCityAE.cs" />
     <Compile Include="VerifyAlienDictionaryLC953.cs" />
     <Compile Include="WordsearchLeetcode79.cs" />
   </ItemGroup>
