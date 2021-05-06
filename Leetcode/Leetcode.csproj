@@ -59,6 +59,7 @@
     <Compile Include="CycleInGraphAE.cs" />
     <Compile Include="FindAllDuplicatesInArrayLC442.cs" />
     <Compile Include="FindBinaryTreeSuccessorAE.cs" />
+    <Compile Include="FindLoopInLinkedListAE.cs" />
     <Compile Include="FirstDuplicateAE.cs" />
     <Compile Include="FourNumberSumLC18.cs" />
     <Compile Include="FourNumberSumAE.cs" />
@@ -74,6 +75,8 @@
     <Compile Include="LargestRectangleUnderSkyline.cs" />
     <Compile Include="LevenshteinDistanceMediumAE.cs" />
     <Compile Include="LinkedListConstructionAE.cs" />
+    <Compile Include="LinkedListCycleIILC142.cs" />
+    <Compile Include="LinkedListCycleLC141.cs" />
     <Compile Include="LinkedListSum.cs" />
     <Compile Include="LongestCommonSubsequenceAE.cs" />
     <Compile Include="LongestMountainLC845AE.cs" />
@@ -272,6 +275,7 @@
   <ItemGroup>
     <Content Include="CombinationSum2LC40.jpg" />
     <Content Include="ContiguousArrayLC525.jpg" />
+    <Content Include="FindLoopInLinkedListAE.jpg" />
     <Content Include="LRUCacheLeetCode146.jpg" />
     <Content Include="SubsetsLC78.jpg" />
     <Content Include="TopologicalSortAE.jpg" />
