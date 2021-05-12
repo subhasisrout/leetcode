@@ -68,6 +68,7 @@
     <Compile Include="ImplementTrieLC208.cs" />
     <Compile Include="IndexEqualsValueAE.cs" />
     <Compile Include="InsertionSortAE.cs" />
+    <Compile Include="KnapsackProblemAE.cs" />
     <Compile Include="KthLargestElementLC215.cs" />
     <Compile Include="LaptopRentalsAE.cs" />
     <Compile Include="LargestRangeAE.cs" />
@@ -113,6 +114,7 @@
     <Compile Include="SubArraySortAE.cs" />
     <Compile Include="SunsetViewsAE.cs" />
     <Compile Include="TaskAssignmentAE.cs" />
+    <Compile Include="TempRedoCoinChangeLC322.cs" />
     <Compile Include="ThreeNumberSortAE.cs" />
     <Compile Include="ThreeNumSumLC15.cs" />
     <Compile Include="AddBinaryLC67.cs" />

@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
+// #RememberPattern
 // This solution found in https://www.youtube.com/watch?v=0do2734xhnU
 // is more #intuitive than #AlgoExpert #AE.
 // This is mainly dividing the solution into 3 parts - finding lb, finding rb and calculating areas.
 // find lb and rb can be done using brute force by looking all elements, all time. This uses Stack.
-// Note lb[0] is -1 because we are storing index. similarly rb[lastindex] = totalLength.
+// Note lb[0] is -1 because we are storing index of "next smaller element". similarly rb[lastindex] = totalLength.
 
 
 namespace Leetcode
@@ -19,7 +20,7 @@ namespace Leetcode
             int[] rb = new int[heights.Length];
             Stack<int> stack = new Stack<int>();
 
-            // fill lb (left bound)
+            // fill lb (left bound) i.e. "next small element index" on the left
             lb[0] = -1;
             stack.Push(0);
             for (int i = 1; i < heights.Length; i++)
@@ -41,7 +42,7 @@ namespace Leetcode
             }
 
 
-            // fill rb (right bound)
+            // fill rb (right bound) i.e. "next small element index" on the right
             stack.Clear();
             rb[heights.Length - 1] = heights.Length; // as opposed to -1 for lb
             stack.Push(heights.Length - 1);

@@ -1,4 +1,5 @@
 ﻿// Look at #AlgoExpert #AE for detail explaination
+// tree-edge, back-edge, cross-edge, forward-edge
 
 
 namespace Leetcode
@@ -9,7 +10,7 @@ namespace Leetcode
         {
             int numOfVertices = edges.Length;
             bool[] visited = new bool[numOfVertices]; 
-            bool[] currentlyInStack = new bool[numOfVertices]; 
+            bool[] currentlyInStack = new bool[numOfVertices]; // Here "stack" is the recursion stack.
 
             // this loop is needed mainly for the disjoint nodes (forest)
             // otherwise because of DFS nature. calling IsCycleFound on one node will lead to another and so on. Only the disjoint ones will be left.

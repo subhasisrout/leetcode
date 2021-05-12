@@ -3,6 +3,7 @@ using System.Linq;
 
 // #AE #AlgoExpert #Hard #Tricky. Formula to be used - rewards[i] = Math.Max(rewards[i], 1 + rewards[i + 1]);
 // #LC #Leetcode 135 (hard)
+// #RememberPattern
 
 namespace Leetcode
 {

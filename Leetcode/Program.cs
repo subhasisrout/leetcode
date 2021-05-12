@@ -11,8 +11,11 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            CanCompleteCircuitLC134 canCompleteCircuitLC134 = new CanCompleteCircuitLC134();
-            canCompleteCircuitLC134.CanCompleteCircuit(new[] { 5,1,2,3,4 }, new int[] { 4,4,1,5,1 });
+            LastStoneWeightLC1046 lastStoneWeightLC1046 = new LastStoneWeightLC1046();
+            lastStoneWeightLC1046.LastStoneWeight(new int[] { 2, 7, 4, 1, 8, 1 });
+
+            //CanCompleteCircuitLC134 canCompleteCircuitLC134 = new CanCompleteCircuitLC134();
+            //canCompleteCircuitLC134.CanCompleteCircuit(new[] { 5,1,2,3,4 }, new int[] { 4,4,1,5,1 });
 
             //SubArraySortAE.SubarraySort(new int[] { 1, 2, 4, 7, 10, 11, 7, 12, 6, 7, 16, 18, 19 });
 
