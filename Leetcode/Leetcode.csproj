@@ -57,6 +57,8 @@
     <Compile Include="ConstructBinaryTreeFromPreOrderAndInOrderLC105.cs" />
     <Compile Include="ConstructBSTFromPreOrderLC1008.cs" />
     <Compile Include="CycleInGraphAE.cs" />
+    <Compile Include="DiagonalTraverseIILC1424.cs" />
+    <Compile Include="DiagonalTraverseLC498.cs" />
     <Compile Include="FindAllDuplicatesInArrayLC442.cs" />
     <Compile Include="FindBinaryTreeSuccessorAE.cs" />
     <Compile Include="FindLoopInLinkedListAE.cs" />
@@ -114,7 +116,6 @@
     <Compile Include="SubArraySortAE.cs" />
     <Compile Include="SunsetViewsAE.cs" />
     <Compile Include="TaskAssignmentAE.cs" />
-    <Compile Include="TempRedoCoinChangeLC322.cs" />
     <Compile Include="ThreeNumberSortAE.cs" />
     <Compile Include="ThreeNumSumLC15.cs" />
     <Compile Include="AddBinaryLC67.cs" />
@@ -269,6 +270,7 @@
     <Compile Include="ValidStartingCityAE.cs" />
     <Compile Include="VerifyAlienDictionaryLC953.cs" />
     <Compile Include="WordsearchLeetcode79.cs" />
+    <Compile Include="ZigzagTraverseAE.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -277,6 +279,7 @@
   <ItemGroup>
     <Content Include="CombinationSum2LC40.jpg" />
     <Content Include="ContiguousArrayLC525.jpg" />
+    <Content Include="DiagonalTraverseIILC1424.jpg" />
     <Content Include="FindLoopInLinkedListAE.jpg" />
     <Content Include="LRUCacheLeetCode146.jpg" />
     <Content Include="SubsetsLC78.jpg" />
