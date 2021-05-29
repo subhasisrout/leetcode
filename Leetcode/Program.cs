@@ -11,8 +11,23 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            LastStoneWeightLC1046 lastStoneWeightLC1046 = new LastStoneWeightLC1046();
-            lastStoneWeightLC1046.LastStoneWeight(new int[] { 2, 7, 4, 1, 8, 1 });
+            RandomizedSet randomizedSet = new RandomizedSet();
+            randomizedSet.Remove(0);
+            randomizedSet.Remove(0);
+            randomizedSet.Insert(0);
+            var x = randomizedSet.GetRandom();
+            randomizedSet.Remove(0);
+            randomizedSet.Insert(0);
+
+
+
+            //MinimumPassesOfMatrixAE minimumPassesOfMatrixAE = new MinimumPassesOfMatrixAE();
+            //minimumPassesOfMatrixAE.MinimumPassesOfMatrix(new int[][] { new int[] { 0, -1, -3, 2, 0 }, new int[] { 1, -2, -5, -1, -3 }, new int[] { 3, 0, 0, -4, -1 } });
+
+            //InterweavingStringsAE.Interweavingstrings("algoexpert", "your-dream-job", "your-algodream-expertjob");
+
+            //LastStoneWeightLC1046 lastStoneWeightLC1046 = new LastStoneWeightLC1046();
+            //lastStoneWeightLC1046.LastStoneWeight(new int[] { 2, 7, 4, 1, 8, 1 });
 
             //CanCompleteCircuitLC134 canCompleteCircuitLC134 = new CanCompleteCircuitLC134();
             //canCompleteCircuitLC134.CanCompleteCircuit(new[] { 5,1,2,3,4 }, new int[] { 4,4,1,5,1 });

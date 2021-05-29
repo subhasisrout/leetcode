@@ -70,6 +70,7 @@
     <Compile Include="ImplementTrieLC208.cs" />
     <Compile Include="IndexEqualsValueAE.cs" />
     <Compile Include="InsertionSortAE.cs" />
+    <Compile Include="InterweavingStringsAE.cs" />
     <Compile Include="KnapsackProblemAE.cs" />
     <Compile Include="KthLargestElementLC215.cs" />
     <Compile Include="LaptopRentalsAE.cs" />
@@ -84,14 +85,20 @@
     <Compile Include="LongestCommonSubsequenceAE.cs" />
     <Compile Include="LongestMountainLC845AE.cs" />
     <Compile Include="LongestPalindromicSubStringAE.cs" />
+    <Compile Include="MaximizeExpressionAE.cs" />
     <Compile Include="MaxSubsetSumNoAdjacentAE.cs" />
     <Compile Include="MergeKSortedArraysAE.cs" />
     <Compile Include="MergeOverlappingIntervalsAE.cs" />
     <Compile Include="MergeSortAE.cs" />
     <Compile Include="MinHeapConstructionAE.cs" />
+    <Compile Include="MinimumCharactersForWordsAE.cs" />
     <Compile Include="MinimumNumberOfJumpsAE.cs" />
+    <Compile Include="MinimumPassesOfMatrixAE.cs" />
     <Compile Include="MinimumRewardsAE.cs" />
+    <Compile Include="MinimumWindowSubstringLC76.cs" />
     <Compile Include="MinStackLC155.cs" />
+    <Compile Include="NextGreaterElementAE.cs" />
+    <Compile Include="NextGreaterElementILC496.cs" />
     <Compile Include="NonConstructibleChangeAE.cs" />
     <Compile Include="NumberOfWaysToMakeChangeLE.cs" />
     <Compile Include="NumberOfWaysToTraverseGraphAE.cs" />
@@ -99,6 +106,7 @@
     <Compile Include="ProductSumAE.cs" />
     <Compile Include="QuickSelectAE.cs" />
     <Compile Include="QuickSortAE.cs" />
+    <Compile Include="RandomizedSetLC380.cs" />
     <Compile Include="ReconstructBSTAE.cs" />
     <Compile Include="RelativeSortArrayLC1122.cs" />
     <Compile Include="RemoveKthNodeFromEndAE.cs" />
@@ -113,6 +121,7 @@
     <Compile Include="SortKSortedArrayAE.cs" />
     <Compile Include="SortStackRecursiveAE.cs" />
     <Compile Include="SpiralMatrixLC54.cs" />
+    <Compile Include="StoneGame6LC1686.cs" />
     <Compile Include="SubArraySortAE.cs" />
     <Compile Include="SunsetViewsAE.cs" />
     <Compile Include="TaskAssignmentAE.cs" />
@@ -282,6 +291,7 @@
     <Content Include="DiagonalTraverseIILC1424.jpg" />
     <Content Include="FindLoopInLinkedListAE.jpg" />
     <Content Include="LRUCacheLeetCode146.jpg" />
+    <Content Include="StoneGame6LC1686.jpg" />
     <Content Include="SubsetsLC78.jpg" />
     <Content Include="TopologicalSortAE.jpg" />
   </ItemGroup>
