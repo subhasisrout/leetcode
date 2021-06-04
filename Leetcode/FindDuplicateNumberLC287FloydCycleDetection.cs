@@ -2,6 +2,9 @@
 // #RememberPattern
 // Explanation in https://www.youtube.com/watch?v=dfIqLxAf-8s
 // Other option for O(1) solution is "CHANGING THE ARRAY" by multiplying numbers by -1.
+
+// Actual Floyd algorithm works for linkedlist. We have convert array to linkedlist using the approach3
+// at https://leetcode.com/problems/find-the-duplicate-number/solution/
 namespace Leetcode
 {
     public class FindDuplicateNumberLC287FloydCycleDetection

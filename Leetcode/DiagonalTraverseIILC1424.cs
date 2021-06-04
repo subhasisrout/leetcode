@@ -5,7 +5,7 @@ using System.Linq;
 // #RememberPattern
 // #FirstSolution :: All cells having (rowIndex + colIndex) same can be clubbed together and sorted.
 // #SecondSolution :: Use a queue and traverse until queue is not empty. (Idea taken from Leetcode other submissions)
-                     // Check the diagram which shows the sequencing of row and column index in the queue
+// Check the diagram which shows the sequencing of row and column index in the queue
 
 namespace Leetcode
 {
@@ -22,11 +22,12 @@ namespace Leetcode
                 int[] current = queue.Dequeue();
                 result.Add(nums[current[0]][current[1]]);
 
-                if (current[1] == 0 && nums.Count > current[0] + 1) //currently in first row
+                //current[1]==0 this is needed because you need to go down ONLY if you are in the FIRST ROW (i.e. top most)
+                if (current[1] == 0 && nums.Count > current[0] + 1)
                     queue.Enqueue(new int[] { current[0] + 1, 0 });
 
                 if (current[1] + 1 < nums[current[0]].Count)
-                queue.Enqueue(new int[] { current[0], current[1] + 1 });
+                    queue.Enqueue(new int[] { current[0], current[1] + 1 });
             }
             return result.ToArray();
         }

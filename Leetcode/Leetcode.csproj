@@ -65,6 +65,7 @@
     <Compile Include="FirstDuplicateAE.cs" />
     <Compile Include="FourNumberSumLC18.cs" />
     <Compile Include="FourNumberSumAE.cs" />
+    <Compile Include="GenerateParenthesisLC22.cs" />
     <Compile Include="HasSingleCycleAE.cs" />
     <Compile Include="HeightBalancedBinaryTreeAE.cs" />
     <Compile Include="ImplementTrieLC208.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="NumberOfWaysToMakeChangeLE.cs" />
     <Compile Include="NumberOfWaysToTraverseGraphAE.cs" />
     <Compile Include="PermutationsLC46AE.cs" />
+    <Compile Include="PowLC50.cs" />
     <Compile Include="ProductSumAE.cs" />
     <Compile Include="QuickSelectAE.cs" />
     <Compile Include="QuickSortAE.cs" />
@@ -112,6 +114,7 @@
     <Compile Include="RemoveKthNodeFromEndAE.cs" />
     <Compile Include="ReverseWordsInStringAE.cs" />
     <Compile Include="RiverSizesAE.cs" />
+    <Compile Include="RotateArrayInPlaceLC189.cs" />
     <Compile Include="SearchForRangeBinSearchAE.cs" />
     <Compile Include="SearchInRotatedSortedArrayLC33.cs" />
     <Compile Include="SearchInSortedMatrixAE.cs" />
@@ -277,6 +280,7 @@
     <Compile Include="ValidPalindrome2LC680.cs" />
     <Compile Include="ValidPalindromeLC125.cs" />
     <Compile Include="ValidStartingCityAE.cs" />
+    <Compile Include="ValidSudokuLC36.cs" />
     <Compile Include="VerifyAlienDictionaryLC953.cs" />
     <Compile Include="WordsearchLeetcode79.cs" />
     <Compile Include="ZigzagTraverseAE.cs" />
