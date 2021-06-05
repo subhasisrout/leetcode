@@ -115,6 +115,7 @@
     <Compile Include="ReverseWordsInStringAE.cs" />
     <Compile Include="RiverSizesAE.cs" />
     <Compile Include="RotateArrayInPlaceLC189.cs" />
+    <Compile Include="RotateImageLC48.cs" />
     <Compile Include="SearchForRangeBinSearchAE.cs" />
     <Compile Include="SearchInRotatedSortedArrayLC33.cs" />
     <Compile Include="SearchInSortedMatrixAE.cs" />
