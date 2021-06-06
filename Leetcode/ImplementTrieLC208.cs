@@ -6,6 +6,10 @@
 // Referred - https://www.youtube.com/watch?v=giiaIofn31A (Michael Muinos) 
 // Leetcode 208
 
+// Added ImplementTrieWithMapLC208 where children are maintained using HashMap. I like this HashMap approach better
+// Kind of sunken in the mind. Also its more readable and generic. Neetcode did using HashMap.
+// Michael Muinos used arrays.
+
 namespace Leetcode
 {
     public class Trie

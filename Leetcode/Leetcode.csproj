@@ -69,9 +69,11 @@
     <Compile Include="HasSingleCycleAE.cs" />
     <Compile Include="HeightBalancedBinaryTreeAE.cs" />
     <Compile Include="ImplementTrieLC208.cs" />
+    <Compile Include="ImplementTrieWithMapLC208.cs" />
     <Compile Include="IndexEqualsValueAE.cs" />
     <Compile Include="InsertionSortAE.cs" />
     <Compile Include="InterweavingStringsAE.cs" />
+    <Compile Include="InvertBinaryTreeLC226AE.cs" />
     <Compile Include="KnapsackProblemAE.cs" />
     <Compile Include="KthLargestElementLC215.cs" />
     <Compile Include="LaptopRentalsAE.cs" />
@@ -121,6 +123,7 @@
     <Compile Include="SearchInSortedMatrixAE.cs" />
     <Compile Include="SearchInSpiralSortedMatrixActualInterview1.cs" />
     <Compile Include="SelectionSortAE.cs" />
+    <Compile Include="SetMatrixZeroesLC73.cs" />
     <Compile Include="ShortestUnsortedContinuousSubarrayLC581.cs" />
     <Compile Include="SortKSortedArrayAE.cs" />
     <Compile Include="SortStackRecursiveAE.cs" />
