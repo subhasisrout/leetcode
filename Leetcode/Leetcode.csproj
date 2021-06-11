@@ -62,12 +62,14 @@
     <Compile Include="FindAllDuplicatesInArrayLC442.cs" />
     <Compile Include="FindBinaryTreeSuccessorAE.cs" />
     <Compile Include="FindLoopInLinkedListAE.cs" />
+    <Compile Include="FindMinimumInRotatedArrayLC153.cs" />
     <Compile Include="FirstDuplicateAE.cs" />
     <Compile Include="FourNumberSumLC18.cs" />
     <Compile Include="FourNumberSumAE.cs" />
     <Compile Include="GenerateParenthesisLC22.cs" />
     <Compile Include="HasSingleCycleAE.cs" />
     <Compile Include="HeightBalancedBinaryTreeAE.cs" />
+    <Compile Include="HouseRobberLC213.cs" />
     <Compile Include="ImplementTrieLC208.cs" />
     <Compile Include="ImplementTrieWithMapLC208.cs" />
     <Compile Include="IndexEqualsValueAE.cs" />
@@ -89,6 +91,7 @@
     <Compile Include="LongestMountainLC845AE.cs" />
     <Compile Include="LongestPalindromicSubStringAE.cs" />
     <Compile Include="MaximizeExpressionAE.cs" />
+    <Compile Include="MaximumProductSubArrayLC152.cs" />
     <Compile Include="MaxSubsetSumNoAdjacentAE.cs" />
     <Compile Include="MergeKSortedArraysAE.cs" />
     <Compile Include="MergeOverlappingIntervalsAE.cs" />

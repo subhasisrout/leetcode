@@ -11,8 +11,11 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            PowLC50 powLC50 = new PowLC50();
-            var x = powLC50.MyPow(2.0, -2147483648);
+            HouseRobberLC213 houseRobberLC213 = new HouseRobberLC213();
+            houseRobberLC213.Rob(new int[] {1,2,3,1});
+
+            //PowLC50 powLC50 = new PowLC50();
+            //var x = powLC50.MyPow(2.0, -2147483648);
 
             //RandomizedSet randomizedSet = new RandomizedSet();
             //randomizedSet.Remove(0);
