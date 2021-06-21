@@ -53,9 +53,12 @@
     <Compile Include="BinaryTreeDiameterAE.cs" />
     <Compile Include="BubbleSortAE.cs" />
     <Compile Include="CanCompleteCircuitLC134.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="ClimbStairsLC70AE.cs" />
+    <Compile Include="CodeChefSHROUTE.cs" />
     <Compile Include="ConstructBinaryTreeFromPreOrderAndInOrderLC105.cs" />
     <Compile Include="ConstructBSTFromPreOrderLC1008.cs" />
+    <Compile Include="CountingBitsLC338.cs" />
     <Compile Include="CycleInGraphAE.cs" />
     <Compile Include="DiagonalTraverseIILC1424.cs" />
     <Compile Include="DiagonalTraverseLC498.cs" />
@@ -88,6 +91,7 @@
     <Compile Include="LinkedListCycleLC141.cs" />
     <Compile Include="LinkedListSum.cs" />
     <Compile Include="LongestCommonSubsequenceAE.cs" />
+    <Compile Include="LongestIncreasingSubsequenceLC300.cs" />
     <Compile Include="LongestMountainLC845AE.cs" />
     <Compile Include="LongestPalindromicSubStringAE.cs" />
     <Compile Include="MaximizeExpressionAE.cs" />
@@ -106,8 +110,10 @@
     <Compile Include="NextGreaterElementAE.cs" />
     <Compile Include="NextGreaterElementILC496.cs" />
     <Compile Include="NonConstructibleChangeAE.cs" />
+    <Compile Include="NumberOf1BitsLC191.cs" />
     <Compile Include="NumberOfWaysToMakeChangeLE.cs" />
     <Compile Include="NumberOfWaysToTraverseGraphAE.cs" />
+    <Compile Include="PacificAtlanticWaterflowLC417.cs" />
     <Compile Include="PermutationsLC46AE.cs" />
     <Compile Include="PowLC50.cs" />
     <Compile Include="ProductSumAE.cs" />
@@ -297,6 +303,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CheatSheet.txt" />
     <Content Include="CombinationSum2LC40.jpg" />
     <Content Include="ContiguousArrayLC525.jpg" />
     <Content Include="DiagonalTraverseIILC1424.jpg" />

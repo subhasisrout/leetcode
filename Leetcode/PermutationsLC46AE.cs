@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 // #AE
+// PermutationsLC46 is more generic and can be applied in Permuatation-II as well. Learn that.
 
 // 1,2,3 after for loop runs 3 times. i == j == 0. NO-OP.
 // Now j == 1

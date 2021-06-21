@@ -1,7 +1,4 @@
 ﻿
-// #TODO
-
-
 using System;
 
 namespace Leetcode
@@ -27,6 +24,37 @@ namespace Leetcode
             }
             return dp[n - 1];
 
+        }
+
+        // Below method without HELPER is MORE INTUITIVE
+        public int Rob2(int[] nums)
+        {
+            int[] dp = new int[nums.Length - 1];
+            if (nums.Length == 1)
+                return nums[0];
+            if (nums.Length == 2)
+                return Math.Max(nums[0], nums[1]);
+
+            // 0th element to second last element
+            dp[0] = nums[0];
+            dp[1] = Math.Max(nums[0], nums[1]);
+            for (int i = 2; i < nums.Length - 1; i++)
+            {
+                dp[i] = Math.Max(dp[i - 1], dp[i - 2] + nums[i]);
+            }
+            var val1 = dp[dp.Length - 1];
+
+            // 1st element to last element
+            dp = new int[nums.Length - 1];
+            dp[0] = nums[1];
+            dp[1] = Math.Max(nums[1], nums[2]);
+            for (int i = 2; i < nums.Length - 1; i++)
+            {
+                dp[i] = Math.Max(dp[i - 1], dp[i - 2] + nums[i + 1]); //note i+1 for nums. Try to visualize.
+            }
+            var val2 = dp[dp.Length - 1];
+
+            return Math.Max(val1, val2);
         }
 
     }

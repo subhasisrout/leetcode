@@ -11,8 +11,23 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            HouseRobberLC213 houseRobberLC213 = new HouseRobberLC213();
-            houseRobberLC213.Rob(new int[] {1,2,3,1});
+            PacificAtlanticWaterflowLC417 pacificAtlanticWaterflowLC417 = new PacificAtlanticWaterflowLC417();
+            pacificAtlanticWaterflowLC417.PacificAtlantic(new int[][]
+            {
+                new int[] {1,2,2,3,5 },
+                new int[] {3, 2, 3, 4, 4},
+                new int[] { 2, 4, 5, 3, 1},
+                new int[] {6, 7, 1, 4, 5},
+                new int[] {5, 1, 1, 2, 4}
+            });
+
+            //CodeChefSHROUTE codeChefSHROUTE = new CodeChefSHROUTE();
+            //codeChefSHROUTE.GetTime(new int[] { 2, 0, 0, 0, 1 }, 0);
+
+
+
+            //HouseRobberLC213 houseRobberLC213 = new HouseRobberLC213();
+            //houseRobberLC213.Rob(new int[] {1,2,3,1});
 
             //PowLC50 powLC50 = new PowLC50();
             //var x = powLC50.MyPow(2.0, -2147483648);

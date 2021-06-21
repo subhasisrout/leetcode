@@ -1,0 +1,41 @@
+Cheatsheet
+==========
+1. Backtracking
+	Permutations I & II. 
+		if visited then continue. Loop through all elements and backtrack by removing them and setting visited to false.	
+		Extra line in Permutation II is :: if (visited[i] || i > 0 && nums[i] == nums[i-1] && !visited[i-1]) continue;
+
+	Subsets I & II (Powerset)
+		startIdx is passed. Add to result, no matter what. Loop through all elements and backtrack by removing them.
+		Extra line in Subsets II is :: if (i > startIdx && nums[i] == nums[i-1]) continue;
+
+	CombinationSum I & II
+		Sort the candidates
+		startIdx is passed. Add to result, if targetSum == 0. Loop through all elements and backtrack by removing them. DONT pass i+1 in ComboSum1
+		Two things extra in ComboSum2. if (i > startIdx && candidates[i] == candidates[i-1]) continue; ----- Pass i+1 in recursion, as you cannot reuse the same element twice.
+		
+
+
+2. Two pointer / Greedy
+	Container with most water
+	Boats to save people
+	.	
+	.<Add more as you see>
+	.
+		i=0, j=len-1, Compute and either do i++ or j-- or both (as in boats problem).
+
+
+3. Dynamic Programming
+	House Robber I && II
+		build dpArray. Use formula - Max(dp[i-1],dp[i-2] + nums[i])
+		House Robber II - Do above twice from (0 to second last element) and (1 to last element). Take Max of the two.
+		While doing (1 to last element), DO NOT MESS UP THE INDEX for nums. dp[i] = Math.Max(dp[i - 1], dp[i - 2] + nums[i + 1]); //note i+1 for nums. Try to visualize.
+
+
+
+
+
+
+
+
+			
