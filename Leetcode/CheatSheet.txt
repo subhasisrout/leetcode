@@ -31,6 +31,24 @@ Cheatsheet
 		House Robber II - Do above twice from (0 to second last element) and (1 to last element). Take Max of the two.
 		While doing (1 to last element), DO NOT MESS UP THE INDEX for nums. dp[i] = Math.Max(dp[i - 1], dp[i - 2] + nums[i + 1]); //note i+1 for nums. Try to visualize.
 
+	Coin Change
+
+	Longest Increasing SubSequence (LIS)
+
+
+
+4. Intervals
+	Merge Intervals / Merge Overlapping intervals
+		Sort by startTime. You either add to result or update the last entry endTime of result.
+		Add - If item's start is strictly greater than lastelement's endTime
+		ELSE - Update the endtime - Use Math.Max(item's endTime, lastElement endTime)
+
+
+	
+
+
+		
+
 
 
 

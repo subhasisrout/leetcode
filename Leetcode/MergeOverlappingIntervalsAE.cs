@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 // Below solution is elegant and is from #AlgoExpert #AE
-// #Leetcode #LC 56
+// #Leetcode #LC56
 
 namespace Leetcode
 {

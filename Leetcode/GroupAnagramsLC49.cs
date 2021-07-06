@@ -45,5 +45,39 @@ namespace Leetcode
             }
             return output;
         }
+
+        // Below is a self written 4 line solution (using helper method to return charfreqsortedbykey like a1e1t1)
+        public IList<IList<string>> GroupAnagrams2(string[] strs)
+        {
+            Dictionary<string, IList<string>> groups = new Dictionary<string, IList<string>>();
+            for (int i = 0; i < strs.Length; i++)
+            {
+                string charCountOfWordSortedByChar = GetCharCountOfWordSortedByChar(strs[i]);
+                if (!groups.ContainsKey(charCountOfWordSortedByChar))
+                    groups.Add(charCountOfWordSortedByChar, new List<string>());
+                groups[charCountOfWordSortedByChar].Add(strs[i]);
+            }
+            return groups.Values.ToList();
+        }
+
+        public string GetCharCountOfWordSortedByChar(string word)
+        {
+            Dictionary<char, int> charCountMap = new Dictionary<char, int>();
+            for (int i = 0; i < word.Length; i++)
+            {
+                if (!charCountMap.ContainsKey(word[i]))
+                    charCountMap.Add(word[i], 0);
+                charCountMap[word[i]]++;
+            }
+
+            StringBuilder valuesSortedByKeys = new StringBuilder();
+            foreach (var item in charCountMap.OrderBy(i => i.Key))
+            {
+                valuesSortedByKeys.Append(item.Key);
+                valuesSortedByKeys.Append(item.Value);
+            }
+
+            return valuesSortedByKeys.ToString();
+        }
     }
 }

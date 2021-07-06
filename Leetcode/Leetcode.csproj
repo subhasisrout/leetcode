@@ -55,6 +55,7 @@
     <Compile Include="CanCompleteCircuitLC134.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="ClimbStairsLC70AE.cs" />
+    <Compile Include="CloneGraphLC133.cs" />
     <Compile Include="CodeChefSHROUTE.cs" />
     <Compile Include="ConstructBinaryTreeFromPreOrderAndInOrderLC105.cs" />
     <Compile Include="ConstructBSTFromPreOrderLC1008.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="MaximizeExpressionAE.cs" />
     <Compile Include="MaximumProductSubArrayLC152.cs" />
     <Compile Include="MaxSubsetSumNoAdjacentAE.cs" />
+    <Compile Include="MergeIntervalsLC56.cs" />
     <Compile Include="MergeKSortedArraysAE.cs" />
     <Compile Include="MergeOverlappingIntervalsAE.cs" />
     <Compile Include="MergeSortAE.cs" />
