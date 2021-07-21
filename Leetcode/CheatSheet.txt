@@ -43,6 +43,19 @@ Cheatsheet
 		Add - If item's start is strictly greater than lastelement's endTime
 		ELSE - Update the endtime - Use Math.Max(item's endTime, lastElement endTime)
 
+	Add Interval
+		One naive solution is - Add the newInterval to the list and use "Merge Interval"
+		Smart solution (3 flat while loops)
+			- add all the intervals before the newInterval starts
+			- Merge by setting newIntervalStart and EndTime. Expand the newInterval by updating EndTime and compare newIntervalEndTime in the loop.
+			- add all the intervals after the newInterval-MERGED ends
+
+	Non overlapping intervals
+		Sort by endTime because you want to greedily pick the intervals which ends soon so as to accomodate more intervals (or remove less intervals)
+		Loop through all intervals and update closingTime, if the startTime is >= closingTime, 
+		else there is a clash, so increase count.
+
+
 
 	
 

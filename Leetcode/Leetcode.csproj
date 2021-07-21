@@ -77,6 +77,7 @@
     <Compile Include="ImplementTrieLC208.cs" />
     <Compile Include="ImplementTrieWithMapLC208.cs" />
     <Compile Include="IndexEqualsValueAE.cs" />
+    <Compile Include="InsertIntervalLC57.cs" />
     <Compile Include="InsertionSortAE.cs" />
     <Compile Include="InterweavingStringsAE.cs" />
     <Compile Include="InvertBinaryTreeLC226AE.cs" />
@@ -112,6 +113,7 @@
     <Compile Include="NextGreaterElementAE.cs" />
     <Compile Include="NextGreaterElementILC496.cs" />
     <Compile Include="NonConstructibleChangeAE.cs" />
+    <Compile Include="NonOverlappingIntervalsLC435.cs" />
     <Compile Include="NumberOf1BitsLC191.cs" />
     <Compile Include="NumberOfWaysToMakeChangeLE.cs" />
     <Compile Include="NumberOfWaysToTraverseGraphAE.cs" />
@@ -125,6 +127,7 @@
     <Compile Include="ReconstructBSTAE.cs" />
     <Compile Include="RelativeSortArrayLC1122.cs" />
     <Compile Include="RemoveKthNodeFromEndAE.cs" />
+    <Compile Include="RemoveZeroSumConsecutiveNodesFromLinkedListLC1171.cs" />
     <Compile Include="ReverseWordsInStringAE.cs" />
     <Compile Include="RiverSizesAE.cs" />
     <Compile Include="RotateArrayInPlaceLC189.cs" />
