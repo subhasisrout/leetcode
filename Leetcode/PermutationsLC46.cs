@@ -33,7 +33,7 @@ namespace Leetcode
                 PermuteHelper(nums, result, current, visited);
                 current.RemoveAt(current.Count - 1);
                 visited[i] = false;
-
+                // above 5-6 lines are a standard for all backtrackking problems.
             }
         }
     }

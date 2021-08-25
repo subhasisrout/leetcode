@@ -43,7 +43,7 @@ Cheatsheet
 		Add - If item's start is strictly greater than lastelement's endTime
 		ELSE - Update the endtime - Use Math.Max(item's endTime, lastElement endTime)
 
-	Add Interval
+	Add/Insert Interval
 		One naive solution is - Add the newInterval to the list and use "Merge Interval"
 		Smart solution (3 flat while loops)
 			- add all the intervals before the newInterval starts
@@ -54,6 +54,17 @@ Cheatsheet
 		Sort by endTime because you want to greedily pick the intervals which ends soon so as to accomodate more intervals (or remove less intervals)
 		Loop through all intervals and update closingTime, if the startTime is >= closingTime, 
 		else there is a clash, so increase count.
+
+
+5. Merge Sort / Merge List category (solved in 1 bunch)
+		MergeSortAE.cs  (mid = len/2. left = arr.Take(mid).ToArray()... arr.Skip(mid).ToArray()... In Merge method (i < len1 && j < len2)... then while (arr1) and while (arr2))
+		MergeSortedListLC21.cs (Kevin's version)
+		MiddleOfLinkedListLC876.cs (using fast/slow/prev ptr. prev.next = null to CUT OFF the list.return slow)
+		SortListLC148.cs
+
+6. Bits/Binary
+		Number of 1 bits (just refer notes)
+		Count the number of bits (just refer notes)
 
 
 

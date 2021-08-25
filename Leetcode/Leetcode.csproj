@@ -140,6 +140,7 @@
     <Compile Include="SetMatrixZeroesLC73.cs" />
     <Compile Include="ShortestUnsortedContinuousSubarrayLC581.cs" />
     <Compile Include="SortKSortedArrayAE.cs" />
+    <Compile Include="SortList148.cs" />
     <Compile Include="SortStackRecursiveAE.cs" />
     <Compile Include="SpiralMatrixLC54.cs" />
     <Compile Include="StoneGame6LC1686.cs" />

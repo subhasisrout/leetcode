@@ -1,5 +1,5 @@
 ﻿
-//  #VERYINTERESTING Inspired from AlgoExpert valid starting city
+// #VERYINTERESTING Inspired from AlgoExpert valid starting city
 // Referred Leetcode discussions - https://leetcode.com/problems/gas-station/discuss/42568/Share-some-of-my-ideas./180595
 // youtube video - https://www.youtube.com/watch?v=wDgKaNrSOEI
 

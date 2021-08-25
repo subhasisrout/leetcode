@@ -35,7 +35,7 @@ namespace Leetcode
             }
         }
 
-        // #VERYINTUITIVE
+        // #VERYINTUITIVE BUT DONT REMEMBER THIS AS THIS CANNOT BE USED WITH DUPLICATES
         public List<List<int>> Powerset(List<int> array)
         {
             List<List<int>> result = new List<List<int>>();
