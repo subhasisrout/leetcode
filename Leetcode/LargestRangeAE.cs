@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-// #Hard #Tricky #LC #Leetcode 128.
+// #Hard #Tricky #LC #Leetcode 128. #LC128
 
 namespace Leetcode
 {

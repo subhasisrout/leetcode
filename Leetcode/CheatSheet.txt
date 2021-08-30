@@ -31,10 +31,15 @@ Cheatsheet
 		House Robber II - Do above twice from (0 to second last element) and (1 to last element). Take Max of the two.
 		While doing (1 to last element), DO NOT MESS UP THE INDEX for nums. dp[i] = Math.Max(dp[i - 1], dp[i - 2] + nums[i + 1]); //note i+1 for nums. Try to visualize.
 
-	Coin Change
+	Coin Change 1 and 2. Always initialize dp[] to amount+1 size. This is because dp[0] = 0.
 
 	Longest Increasing SubSequence (LIS)
 
+	Min Costs for Ticket LC 983. dp[] length is maxDate + 1, use set for days, Min of - c1 + c(0), c2 + c(1), c3 + c2(2) - if present in set else dp[i] = dp[i-1]
+
+	Unique Paths 1 and 2. In Unique Paths 1, you do dp[i-1,j] + dp[i, j-1]. In Unique Paths 2, there are 2 differences - 
+		diff 1 - while setting dp[] arr for first row and first col, you set 1's until you hit a blocker, then you break (use intuition)
+		diff 2 - in the double for loops, you check for obstacle while applying reccurence formula - else set dp[i][j] to 0.
 
 
 4. Intervals
@@ -65,6 +70,25 @@ Cheatsheet
 6. Bits/Binary
 		Number of 1 bits (just refer notes)
 		Count the number of bits (just refer notes)
+
+
+7. Graph / AdjList
+			Dictionary<int, List<int>> graph = new Dictionary<int, List<int>>();
+			for (int i = 0; i < n; i++)
+			{
+				graph.Add(i, new List<int>());
+			}
+            for (int i = 0; i < trust.Length; i++)
+            {
+                var curr = trust[i];
+                
+				// Below IF clauses are not needed because of the above for-loop
+				// if (!graph.ContainsKey(curr[0])) graph.Add(curr[0], new List<int>());
+                // if (!graph.ContainsKey(curr[1])) graph.Add(curr[1], new List<int>()); for bidirectional graph
+
+                graph[curr[0]].Add(curr[1]);
+                graph[curr[1]].Add(curr[0]);  // for bidirectional graph
+            }
 
 
 

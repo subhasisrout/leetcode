@@ -60,6 +60,7 @@
     <Compile Include="ConstructBinaryTreeFromPreOrderAndInOrderLC105.cs" />
     <Compile Include="ConstructBSTFromPreOrderLC1008.cs" />
     <Compile Include="CountingBitsLC338.cs" />
+    <Compile Include="CourseScheduleLC207.cs" />
     <Compile Include="CycleInGraphAE.cs" />
     <Compile Include="DiagonalTraverseIILC1424.cs" />
     <Compile Include="DiagonalTraverseLC498.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="FindBinaryTreeSuccessorAE.cs" />
     <Compile Include="FindLoopInLinkedListAE.cs" />
     <Compile Include="FindMinimumInRotatedArrayLC153.cs" />
+    <Compile Include="FindTheTownJudgeLC997.cs" />
     <Compile Include="FirstDuplicateAE.cs" />
     <Compile Include="FourNumberSumLC18.cs" />
     <Compile Include="FourNumberSumAE.cs" />
@@ -74,6 +76,7 @@
     <Compile Include="HasSingleCycleAE.cs" />
     <Compile Include="HeightBalancedBinaryTreeAE.cs" />
     <Compile Include="HouseRobberLC213.cs" />
+    <Compile Include="IfPathExistsInGraphLC1971.cs" />
     <Compile Include="ImplementTrieLC208.cs" />
     <Compile Include="ImplementTrieWithMapLC208.cs" />
     <Compile Include="IndexEqualsValueAE.cs" />
@@ -99,12 +102,14 @@
     <Compile Include="MaximizeExpressionAE.cs" />
     <Compile Include="MaximumProductSubArrayLC152.cs" />
     <Compile Include="MaxSubsetSumNoAdjacentAE.cs" />
+    <Compile Include="MedianOfTwoSortedArrays.cs" />
     <Compile Include="MergeIntervalsLC56.cs" />
     <Compile Include="MergeKSortedArraysAE.cs" />
     <Compile Include="MergeOverlappingIntervalsAE.cs" />
     <Compile Include="MergeSortAE.cs" />
     <Compile Include="MinHeapConstructionAE.cs" />
     <Compile Include="MinimumCharactersForWordsAE.cs" />
+    <Compile Include="MinimumCostsForTicketsLC983.cs" />
     <Compile Include="MinimumNumberOfJumpsAE.cs" />
     <Compile Include="MinimumPassesOfMatrixAE.cs" />
     <Compile Include="MinimumRewardsAE.cs" />
@@ -315,6 +320,8 @@
     <Content Include="DiagonalTraverseIILC1424.jpg" />
     <Content Include="FindLoopInLinkedListAE.jpg" />
     <Content Include="LRUCacheLeetCode146.jpg" />
+    <Content Include="NumberOf1BitsLC191_HammingDistance.jpg" />
+    <Content Include="NumberOfWaysToMakeChangeLE.jpg" />
     <Content Include="StoneGame6LC1686.jpg" />
     <Content Include="SubsetsLC78.jpg" />
     <Content Include="TopologicalSortAE.jpg" />

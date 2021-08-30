@@ -11,15 +11,26 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            PacificAtlanticWaterflowLC417 pacificAtlanticWaterflowLC417 = new PacificAtlanticWaterflowLC417();
-            pacificAtlanticWaterflowLC417.PacificAtlantic(new int[][]
-            {
-                new int[] {1,2,2,3,5 },
-                new int[] {3, 2, 3, 4, 4},
-                new int[] { 2, 4, 5, 3, 1},
-                new int[] {6, 7, 1, 4, 5},
-                new int[] {5, 1, 1, 2, 4}
-            });
+            MedianOfTwoSortedArrays medianOfTwoSortedArrays = new MedianOfTwoSortedArrays();
+            medianOfTwoSortedArrays.FindMedianSortedArrays(new[] { 1, 2 }, new int[] { 3, 4 });
+
+            // CoinChangeLC322 coinChangeLC322 = new CoinChangeLC322();
+            // var coins = coinChangeLC322.CoinChange(new int[] { 3 }, 2);
+
+            //var x12 = NumberOfWaysToMakeChangeLE.NumberOfWaysToMakeChange(10, new int[] { 25, 1, 5, 10 });
+
+            // FindTheTownJudgeLC997 findTheTownJudgeLC997 = new FindTheTownJudgeLC997();
+            // findTheTownJudgeLC997.FindJudge(2, new int[][] { new int[] { 1, 2 } });
+
+            //PacificAtlanticWaterflowLC417 pacificAtlanticWaterflowLC417 = new PacificAtlanticWaterflowLC417();
+            //pacificAtlanticWaterflowLC417.PacificAtlantic(new int[][]
+            //{
+            //    new int[] {1,2,2,3,5 },
+            //    new int[] {3, 2, 3, 4, 4},
+            //    new int[] { 2, 4, 5, 3, 1},
+            //    new int[] {6, 7, 1, 4, 5},
+            //    new int[] {5, 1, 1, 2, 4}
+            //});
 
             //CodeChefSHROUTE codeChefSHROUTE = new CodeChefSHROUTE();
             //codeChefSHROUTE.GetTime(new int[] { 2, 0, 0, 0, 1 }, 0);
@@ -283,10 +294,6 @@ namespace Leetcode
 
             //LargestValuesFromLabelLC1090 largestValuesFromLabelLC1090 = new LargestValuesFromLabelLC1090();
             //var r = largestValuesFromLabelLC1090.LargestValsFromLabels(new int[] { 5, 4, 3, 2, 1 }, new int[] { 1, 1, 2, 2, 3 }, 3, 1);
-
-            //CoinChangeLC322 coinChangeLC322 = new CoinChangeLC322();
-            //var coins = coinChangeLC322.CoinChange(new int[] { 1,5,6,10 }, 18);
-
 
             //GroupAnagramsLC49 groupAnagramsLC49 = new GroupAnagramsLC49();
             //var tmp = groupAnagramsLC49.GroupAnagrams(new string[] {"ate","eat","abc","tea","ball","bat","tab" });

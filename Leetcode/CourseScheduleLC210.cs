@@ -6,6 +6,10 @@
 
 // #Leetcode #LC210 (except the dependency order is opposite) and LC207
 
+// DO NOT USE FOR MINDMAP.
+// Instead use CourseScheduleLC207 (2 graphs - 1 for prereqs and 1 for dependencies (create dependencies))
+
+
 using System.Collections.Generic;
 
 namespace Leetcode2

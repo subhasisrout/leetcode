@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 // #RememberPattern
 // #ingenious way to use list.RemoveAt(idx) in O(1) operation
-// #TODO LC 381 (Hard variant of the same).
+// #TODO LC381 (Hard variant of the same).
 
 namespace Leetcode
 {
@@ -48,7 +48,7 @@ namespace Leetcode
             
             //Actual remove. 
             valueIndexMap.Remove(val);
-            numList.RemoveAt(numList.Count - 1);
+            numList.RemoveAt(numList.Count - 1); // The trick is to achieve this.
 
             return true;
 
