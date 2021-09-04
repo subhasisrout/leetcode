@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="ArrayOfProductsExceptSelfLC234AE.cs" />
     <Compile Include="BinaryTreeDiameterAE.cs" />
+    <Compile Include="BinaryTreeMaximumPathSumLC124.cs" />
     <Compile Include="BubbleSortAE.cs" />
     <Compile Include="CanCompleteCircuitLC134.cs" />
     <Compile Include="Class1.cs" />
@@ -115,6 +116,7 @@
     <Compile Include="MinimumRewardsAE.cs" />
     <Compile Include="MinimumWindowSubstringLC76.cs" />
     <Compile Include="MinStackLC155.cs" />
+    <Compile Include="MostFrequentSubtreeSumLC508.cs" />
     <Compile Include="NextGreaterElementAE.cs" />
     <Compile Include="NextGreaterElementILC496.cs" />
     <Compile Include="NonConstructibleChangeAE.cs" />
@@ -124,6 +126,7 @@
     <Compile Include="NumberOfWaysToTraverseGraphAE.cs" />
     <Compile Include="PacificAtlanticWaterflowLC417.cs" />
     <Compile Include="PermutationsLC46AE.cs" />
+    <Compile Include="PopulatingNextRightPointersInEachNodeLC116.cs" />
     <Compile Include="PowLC50.cs" />
     <Compile Include="ProductSumAE.cs" />
     <Compile Include="QuickSelectAE.cs" />
@@ -150,6 +153,7 @@
     <Compile Include="SpiralMatrixLC54.cs" />
     <Compile Include="StoneGame6LC1686.cs" />
     <Compile Include="SubArraySortAE.cs" />
+    <Compile Include="SumRootToLeafNumbersLC129.cs" />
     <Compile Include="SunsetViewsAE.cs" />
     <Compile Include="TaskAssignmentAE.cs" />
     <Compile Include="ThreeNumberSortAE.cs" />

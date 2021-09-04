@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Check below BstFromPreorder2 for easy simplified version.
+
 namespace Leetcode
 {
     public class ConstructBSTFromPreOrderLC1008
@@ -38,6 +40,24 @@ namespace Leetcode
             TreeNode root = new TreeNode(currentSubtreeVal);
             root.left = leftSubtree;
             root.right = rightSubtree;
+            return root;
+        }
+
+
+        // Simplified easy to remember using 'i' as a global variable instead of passing as int[]
+        int i = 0;
+        public TreeNode BstFromPreorder2(int[] preorder)
+        {
+            return BstFromPreorderHelper(preorder, Int32.MaxValue);
+        }
+        private TreeNode BstFromPreorderHelper(int[] preorder, int max)
+        {
+            if (i == preorder.Length || preorder[i] > max) return null;
+
+            TreeNode root = new TreeNode(preorder[i]);
+            i++;
+            root.left = BstFromPreorderHelper(preorder, root.val);
+            root.right = BstFromPreorderHelper(preorder, max);
             return root;
         }
 
