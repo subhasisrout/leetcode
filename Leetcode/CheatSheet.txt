@@ -3,15 +3,15 @@ Cheatsheet
 1. Backtracking
 	Permutations I & II. 
 		if visited then continue. Loop through all elements and backtrack by removing them and setting visited to false.	
-		Extra line in Permutation II is :: if (visited[i] || i > 0 && nums[i] == nums[i-1] && !visited[i-1]) continue;
+		Extra line in Permutation II is SORTING THE ARRAY + if (visited[i] || i > 0 && nums[i] == nums[i-1] && !visited[i-1]) continue;
 
 	Subsets I & II (Powerset)
 		startIdx is passed. Add to result, no matter what. Loop through all elements and backtrack by removing them.
-		Extra line in Subsets II is :: if (i > startIdx && nums[i] == nums[i-1]) continue;
+		Extra line in Subsets II is SORTING THE ARRAY + if (i > startIdx && nums[i] == nums[i-1]) continue;
 
 	CombinationSum I & II
 		Sort the candidates
-		startIdx is passed. Add to result, if targetSum == 0. Loop through all elements and backtrack by removing them. DONT pass i+1 in ComboSum1
+		startIdx is passed. Add to result, if targetSum == 0 and just return if targetSum < 0. Loop through all elements and backtrack by removing them. DONT pass i+1 in ComboSum1
 		Two things extra in ComboSum2. if (i > startIdx && candidates[i] == candidates[i-1]) continue; ----- Pass i+1 in recursion, as you cannot reuse the same element twice.
 		
 
@@ -89,6 +89,28 @@ Cheatsheet
                 graph[curr[0]].Add(curr[1]);
                 graph[curr[1]].Add(curr[0]);  // for bidirectional graph
             }
+
+
+
+8. Cyclic sort - if the range of numbers is fixed between [0..n] or [1..n], just use this. Write in pen and paper for each iteration.
+	This approach be used in variety of places. Examples
+	LC268, LC448, LC287, LC442, LC645, LC41
+	Idea taken from https://www.youtube.com/watch?v=JfinxytTYFQ
+
+	Another approach for these kind of problems is .. multiplying by -1.
+
+
+9. Binary Search
+	Position of first and last occurrence of a target. - Two times binary search. One for first occurence, one for second occurence.
+	Peak of Mountain array - clean code is while (start < end) not <=... start=mid+1 BUT end=mid :)
+	Search in rotated array - Both recursion and iterative are there. Advantage of iterative is - it can be used with slight modification in below.
+	Search in rotated array2 (with duplicates). while (start<=end) if (start==mid==end) start++,end--. else if (mid>=start)..if target in left, touching start.         else... if target in right, touching end.
+
+    Another flavor of Binary Search is when you need to try a range of numbers from min....max and checking ifValid(mid)
+	Example - Koko Eating Bananas LC875, MinDaysToMakeMBouquetsLC1482, SplitArrayLargestSumLC410
+
+
+
 
 
 

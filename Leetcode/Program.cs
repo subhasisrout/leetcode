@@ -11,8 +11,11 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            MedianOfTwoSortedArrays medianOfTwoSortedArrays = new MedianOfTwoSortedArrays();
-            medianOfTwoSortedArrays.FindMedianSortedArrays(new[] { 1, 2 }, new int[] { 3, 4 });
+            SmallestLetterGreaterThanTarget smallestLetterGreaterThanTarget = new SmallestLetterGreaterThanTarget();
+            smallestLetterGreaterThanTarget.NextGreatestLetter(new char[] {'e','e', 'e', 'e', 'e', 'e','n', 'n', 'n', 'n'}, 'e');
+
+            // MedianOfTwoSortedArrays medianOfTwoSortedArrays = new MedianOfTwoSortedArrays();
+            // medianOfTwoSortedArrays.FindMedianSortedArrays(new[] { 1, 2 }, new int[] { 3, 4 });
 
             // CoinChangeLC322 coinChangeLC322 = new CoinChangeLC322();
             // var coins = coinChangeLC322.CoinChange(new int[] { 3 }, 2);

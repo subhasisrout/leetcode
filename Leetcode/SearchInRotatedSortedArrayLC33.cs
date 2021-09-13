@@ -1,6 +1,6 @@
 ﻿// Also present in #AlgoExpert #AE
 // #AlgoExpert #AE solution does not find PIVOT separately, BUT adds extra conditions in the MAIN binary search itself.
-
+// Note its about finding #pivot. Finding pivot here is different from finding pivot in mountainArr LC852
 
 
 namespace Leetcode
@@ -52,6 +52,40 @@ namespace Leetcode
 
             return FindPivotHelper(nums, mid + 1, high);
 
+        }
+
+        private static int RotatedSortedArrayWithDistinctValuesIterative(int[] nums, int start, int end, int target)
+        {
+            while (start <= end)
+            {
+                int mid = start + (end - start) / 2;
+                if (nums[mid] == target) return mid;
+
+                if (nums[start] <= nums[mid])
+                {
+                    if (target >= nums[start] && target < nums[mid])
+                    {
+                        end = mid - 1;
+                    }
+                    else
+                    {
+                        start = mid + 1;
+                    }
+                }
+                else
+                {
+                    if (target <= nums[end] && target > nums[mid])
+                    {
+                        start = mid + 1;
+                    }
+                    else
+                    {
+                        end = mid - 1;
+                    }
+                }
+            } // end of while loop
+
+            return -1;
         }
     }
 }

@@ -5,6 +5,13 @@
 
 // Actual Floyd algorithm works for linkedlist. We have convert array to linkedlist using the approach3
 // at https://leetcode.com/problems/find-the-duplicate-number/solution/
+
+
+// Yet another approach is cyclic sort. This approach be used in variety of places. Examples
+// LC268, LC448, LC287, LC442, LC645, LC41
+// Idea taken from https://www.youtube.com/watch?v=JfinxytTYFQ
+
+
 namespace Leetcode
 {
     public class FindDuplicateNumberLC287FloydCycleDetection
@@ -30,6 +37,27 @@ namespace Leetcode
 
             }
             return slow; //or fast as both are same.
+        }
+
+        public int FindDuplicate2(int[] nums)
+        {
+
+            // do cyclic sort
+            int i = 0;
+            while (i < nums.Length)
+            {
+                if (nums[nums[i] - 1] != nums[i])
+                    Swap(nums, i, nums[i] - 1);
+                else
+                    i++;
+            }
+            return nums[nums.Length - 1];
+        }
+        private void Swap(int[] arr, int i, int j)
+        {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
         }
     }
 }

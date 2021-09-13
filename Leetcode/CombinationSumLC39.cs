@@ -20,6 +20,7 @@ namespace Leetcode
 
         private void CombinationSumUtil(int[] candidates, int target, int startIndex, IList<int> currentList, IList<IList<int>> result)
         {
+            if (target < 0) return;
             if (target == 0)
             {
                 result.Add(new List<int>(currentList));
@@ -27,10 +28,6 @@ namespace Leetcode
             }
             for (int i = startIndex; i < candidates.Length; i++)
             {
-                if (candidates[i] > target)
-                {
-                    break;
-                }
                 currentList.Add(candidates[i]);
                 CombinationSumUtil(candidates, target - candidates[i], i, currentList, result);
                 currentList.RemoveAt(currentList.Count - 1);
