@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayOfProductsExceptSelfLC234AE.cs" />
+    <Compile Include="BestTeamWithNoConflictsLC1626.cs" />
     <Compile Include="BinaryTreeDiameterAE.cs" />
     <Compile Include="BinaryTreeMaximumPathSumLC124.cs" />
     <Compile Include="BubbleSortAE.cs" />
@@ -105,6 +106,7 @@
     <Compile Include="LongestPalindromicSubStringAE.cs" />
     <Compile Include="MaximizeExpressionAE.cs" />
     <Compile Include="MaximumProductSubArrayLC152.cs" />
+    <Compile Include="MaximumSumIncreasingSubsequenceAE.cs" />
     <Compile Include="MaxSubsetSumNoAdjacentAE.cs" />
     <Compile Include="MedianOfTwoSortedArrays.cs" />
     <Compile Include="MergeIntervalsLC56.cs" />
@@ -125,6 +127,7 @@
     <Compile Include="NonConstructibleChangeAE.cs" />
     <Compile Include="NonOverlappingIntervalsLC435.cs" />
     <Compile Include="NumberOf1BitsLC191.cs" />
+    <Compile Include="NumberOfEnclavesLC1020.cs" />
     <Compile Include="NumberOfWaysToMakeChangeLE.cs" />
     <Compile Include="NumberOfWaysToTraverseGraphAE.cs" />
     <Compile Include="PacificAtlanticWaterflowLC417.cs" />
@@ -140,6 +143,7 @@
     <Compile Include="RandomizedSetLC380.cs" />
     <Compile Include="ReconstructBSTAE.cs" />
     <Compile Include="RelativeSortArrayLC1122.cs" />
+    <Compile Include="RemoveIslandsAE.cs" />
     <Compile Include="RemoveKthNodeFromEndAE.cs" />
     <Compile Include="RemoveZeroSumConsecutiveNodesFromLinkedListLC1171.cs" />
     <Compile Include="ReverseWordsInStringAE.cs" />
@@ -153,6 +157,7 @@
     <Compile Include="SearchInSpiralSortedMatrixActualInterview1.cs" />
     <Compile Include="SelectionSortAE.cs" />
     <Compile Include="SetMatrixZeroesLC73.cs" />
+    <Compile Include="ShiftLinkedListAE.cs" />
     <Compile Include="ShortestUnsortedContinuousSubarrayLC581.cs" />
     <Compile Include="SingleNumber2LC137.cs" />
     <Compile Include="SmallestLetterGreaterThanTarget.cs" />
@@ -321,6 +326,7 @@
     <Compile Include="ValidSudokuLC36.cs" />
     <Compile Include="VerifyAlienDictionaryLC953.cs" />
     <Compile Include="WordsearchLeetcode79.cs" />
+    <Compile Include="YoungestCommonAncestorAE.cs" />
     <Compile Include="ZigzagTraverseAE.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -333,6 +339,8 @@
     <Content Include="ContiguousArrayLC525.jpg" />
     <Content Include="DiagonalTraverseIILC1424.jpg" />
     <Content Include="FindLoopInLinkedListAE.jpg" />
+    <Content Include="GoogleQ1.txt" />
+    <Content Include="GoogleQ2.txt" />
     <Content Include="LRUCacheLeetCode146.jpg" />
     <Content Include="NumberOf1BitsLC191_HammingDistance.jpg" />
     <Content Include="NumberOfWaysToMakeChangeLE.jpg" />

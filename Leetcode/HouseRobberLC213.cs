@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Linq;
 
 namespace Leetcode
 {
@@ -29,32 +30,30 @@ namespace Leetcode
         // Below method without HELPER is MORE INTUITIVE
         public int Rob2(int[] nums)
         {
+            if (nums.Length <= 2) return nums.Max();
             int[] dp = new int[nums.Length - 1];
-            if (nums.Length == 1)
-                return nums[0];
-            if (nums.Length == 2)
-                return Math.Max(nums[0], nums[1]);
-
-            // 0th element to second last element
             dp[0] = nums[0];
             dp[1] = Math.Max(nums[0], nums[1]);
+            // 0 to secondlast
             for (int i = 2; i < nums.Length - 1; i++)
             {
                 dp[i] = Math.Max(dp[i - 1], dp[i - 2] + nums[i]);
             }
-            var val1 = dp[dp.Length - 1];
+            int ans1 = dp[dp.Length - 1];
 
-            // 1st element to last element
+
+            //1 to last.. Try to write the num[] and dp[] and visualize
             dp = new int[nums.Length - 1];
             dp[0] = nums[1];
-            dp[1] = Math.Max(nums[1], nums[2]);
-            for (int i = 2; i < nums.Length - 1; i++)
+            dp[1] = Math.Max(nums[2], nums[1]);
+            for (int i = 3; i < nums.Length; i++)
             {
-                dp[i] = Math.Max(dp[i - 1], dp[i - 2] + nums[i + 1]); //note i+1 for nums. Try to visualize.
+                dp[i - 1] = Math.Max(dp[i - 2], dp[i - 3] + nums[i]); // note now its dp[i-1], dp[i-2], dp[i-3] because 'i' is for nums (not dp) and its 1 ahead.
             }
-            var val2 = dp[dp.Length - 1];
 
-            return Math.Max(val1, val2);
+            int ans2 = dp[dp.Length - 1];
+
+            return Math.Max(ans1, ans2);
         }
 
     }

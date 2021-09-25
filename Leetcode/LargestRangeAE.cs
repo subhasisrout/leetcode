@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 // #Hard #Tricky #LC #Leetcode 128. #LC128
+// Two solutions present. Check the second solution using Dictionary/HashMap.
 
 namespace Leetcode
 {
@@ -48,13 +49,14 @@ namespace Leetcode
         }
 
         //O(N) time, but extra space needed. A lot cleaner and intuitive too.
+        // Try to dry with pen-paper with the following example: 100, 4, 200, 1, 3, 2
         public static int[] LargestRange2(int[] nums)
         {
-            Dictionary<int, bool> map = new Dictionary<int, bool>();
+            Dictionary<int, bool> isAvailableForSequence = new Dictionary<int, bool>();
             for (int i = 0; i < nums.Length; i++)
             {
-                if (!map.ContainsKey(nums[i]))
-                    map.Add(nums[i], true);
+                if (!isAvailableForSequence.ContainsKey(nums[i]))
+                    isAvailableForSequence.Add(nums[i], true);
             }
 
             int longestLength = 0;
@@ -62,22 +64,22 @@ namespace Leetcode
             for (int i = 0; i < nums.Length; i++)
             {
                 int currNum = nums[i];
-                if (map[currNum] == false)
+                if (isAvailableForSequence[currNum] == false)
                     continue;
-                map[currNum] = false;
+                isAvailableForSequence[currNum] = false;
                 int currentLength = 1;
 
                 int left = currNum - 1;
                 int right = currNum + 1;
-                while (map.ContainsKey(left))
+                while (isAvailableForSequence.ContainsKey(left))
                 {
-                    map[left] = false;
+                    isAvailableForSequence[left] = false;
                     left -= 1;
                     currentLength += 1;
                 }
-                while (map.ContainsKey(right))
+                while (isAvailableForSequence.ContainsKey(right))
                 {
-                    map[right] = false;
+                    isAvailableForSequence[right] = false;
                     right += 1;
                     currentLength += 1;
                 }

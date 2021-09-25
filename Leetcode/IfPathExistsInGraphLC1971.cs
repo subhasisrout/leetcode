@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// #Graph
+// #AdjList #Adj List
 namespace Leetcode
 {
     public class IfPathExistsInGraphLC1971

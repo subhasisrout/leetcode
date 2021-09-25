@@ -31,9 +31,11 @@ Cheatsheet
 		House Robber II - Do above twice from (0 to second last element) and (1 to last element). Take Max of the two.
 		While doing (1 to last element), DO NOT MESS UP THE INDEX for nums. dp[i] = Math.Max(dp[i - 1], dp[i - 2] + nums[i + 1]); //note i+1 for nums. Try to visualize.
 
-	Coin Change 1 and 2. Always initialize dp[] to amount+1 size. This is because dp[0] = 0.
+	Coin Change 1 and 2. Big difference between the two problem. Always initialize dp[] to amount+1 size. 
+		In CC1, initialize to amt+1, dp[0]=1 ,outer loop is for amount, you fill dp[] using Min(..,dp[i-coins[j]]).. return -1 if dp[last]>amt
+		In CC2, dp[0] = 1, outerloop is coins[], fill dp[] everytime.
 
-	Longest Increasing SubSequence (LIS)
+	Longest Increasing SubSequence (LIS) LC300. Another variant LIS-MaxSum LC1626 
 
 	Min Costs for Ticket LC 983. dp[] length is maxDate + 1, use set for days, Min of - c1 + c(0), c2 + c(1), c3 + c2(2) - if present in set else dp[i] = dp[i-1]
 
@@ -41,9 +43,14 @@ Cheatsheet
 		diff 1 - while setting dp[] arr for first row and first col, you set 1's until you hit a blocker, then you break (use intuition)
 		diff 2 - in the double for loops, you check for obstacle while applying reccurence formula - else set dp[i][j] to 0.
 
+	Knapsack problem
+		0/1 knapsack, where you can pick the item at max, once only - solved using 2d array dp[items.Length+1][capacity+1]
+		Unbounded knapsack, where you can pick any item any number of times - solved using 1d array dp[capacity+1].
+			Another variant of unbounded KS- Coin Change 2. LC518
+
 
 4. Intervals
-	Merge Intervals / Merge Overlapping intervals
+	Merge Intervals / Merge Overlapping intervals. LC56
 		Sort by startTime. You either add to result or update the last entry endTime of result.
 		Add - If item's start is strictly greater than lastelement's endTime
 		ELSE - Update the endtime - Use Math.Max(item's endTime, lastElement endTime)
@@ -65,7 +72,7 @@ Cheatsheet
 		MergeSortAE.cs  (mid = len/2. left = arr.Take(mid).ToArray()... arr.Skip(mid).ToArray()... In Merge method (i < len1 && j < len2)... then while (arr1) and while (arr2))
 		MergeSortedListLC21.cs (Kevin's version)
 		MiddleOfLinkedListLC876.cs (using fast/slow/prev ptr. prev.next = null to CUT OFF the list.return slow)
-		SortListLC148.cs
+		SortListLC148.cs (solved using LC21 + LC876 and approach of MergeSortAE)
 
 6. Bits/Binary
 		Number of 1 bits (just refer notes)

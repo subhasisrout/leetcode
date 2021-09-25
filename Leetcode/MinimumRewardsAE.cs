@@ -2,7 +2,7 @@
 using System.Linq;
 
 // #AE #AlgoExpert #Hard #Tricky. Formula to be used - rewards[i] = Math.Max(rewards[i], 1 + rewards[i + 1]);
-// #LC #Leetcode 135 (hard)
+// #LC #Leetcode 135 (hard) LC135
 // #RememberPattern
 
 namespace Leetcode
