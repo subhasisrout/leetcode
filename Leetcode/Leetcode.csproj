@@ -51,6 +51,10 @@
   <ItemGroup>
     <Compile Include="ArrayOfProductsExceptSelfLC234AE.cs" />
     <Compile Include="BestTeamWithNoConflictsLC1626.cs" />
+    <Compile Include="BestTimeToBuySellStock4LC188.cs" />
+    <Compile Include="BestTimeToBuySellStock3LC123.cs" />
+    <Compile Include="BestTimeToBuySellStock2LC122.cs" />
+    <Compile Include="BestTimeToBuySellStock1LC121.cs" />
     <Compile Include="BinaryTreeDiameterAE.cs" />
     <Compile Include="BinaryTreeMaximumPathSumLC124.cs" />
     <Compile Include="BubbleSortAE.cs" />
@@ -113,6 +117,7 @@
     <Compile Include="MergeKSortedArraysAE.cs" />
     <Compile Include="MergeOverlappingIntervalsAE.cs" />
     <Compile Include="MergeSortAE.cs" />
+    <Compile Include="MergeSortedArrayLC88.cs" />
     <Compile Include="MinHeapConstructionAE.cs" />
     <Compile Include="MinimumCharactersForWordsAE.cs" />
     <Compile Include="MinimumCostsForTicketsLC983.cs" />
@@ -340,6 +345,7 @@
     <Content Include="DiagonalTraverseIILC1424.jpg" />
     <Content Include="FindLoopInLinkedListAE.jpg" />
     <Content Include="GoogleQ1.txt" />
+    <Content Include="GoogleQ3.txt" />
     <Content Include="GoogleQ2.txt" />
     <Content Include="LRUCacheLeetCode146.jpg" />
     <Content Include="NumberOf1BitsLC191_HammingDistance.jpg" />

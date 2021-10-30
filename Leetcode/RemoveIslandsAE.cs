@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 // Similar to #NumberOfEnclavesLC1020 #DFS
+// #AE is using Iterative approach. For this kind of matrix DFS problem, recursion is intuitive (#Sinking the blocks).
 
 namespace Leetcode
 {
