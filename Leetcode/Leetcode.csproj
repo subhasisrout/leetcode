@@ -96,6 +96,7 @@
     <Compile Include="KnapsackProblemAE.cs" />
     <Compile Include="KthLargestElementLC215.cs" />
     <Compile Include="LaptopRentalsAE.cs" />
+    <Compile Include="LargestNumberLC179.cs" />
     <Compile Include="LargestRangeAE.cs" />
     <Compile Include="LargestRectangleInHistogramLC84.cs" />
     <Compile Include="LargestRectangleUnderSkyline.cs" />
@@ -330,6 +331,7 @@
     <Compile Include="ValidStartingCityAE.cs" />
     <Compile Include="ValidSudokuLC36.cs" />
     <Compile Include="VerifyAlienDictionaryLC953.cs" />
+    <Compile Include="WordBreakLC139.cs" />
     <Compile Include="WordsearchLeetcode79.cs" />
     <Compile Include="YoungestCommonAncestorAE.cs" />
     <Compile Include="ZigzagTraverseAE.cs" />
