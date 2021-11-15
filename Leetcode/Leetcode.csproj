@@ -73,6 +73,7 @@
     <Compile Include="DiagonalTraverseLC498.cs" />
     <Compile Include="FindAllDuplicatesInArrayLC442.cs" />
     <Compile Include="FindBinaryTreeSuccessorAE.cs" />
+    <Compile Include="FindBottomLeftTreeValueLC513.cs" />
     <Compile Include="FindInMountainArrayLC1095.cs" />
     <Compile Include="FindLoopInLinkedListAE.cs" />
     <Compile Include="FindMinimumInRotatedArrayLC153.cs" />
@@ -303,6 +304,7 @@
     <Compile Include="TrappingRainWaterLC42.cs" />
     <Compile Include="TwoSumLC1UsingDictionary.cs" />
     <Compile Include="UniqueEmailAddressLC929.cs" />
+    <Compile Include="UniquePathsIIILC980.cs" />
     <Compile Include="UniquePathsIILC63.cs" />
     <Compile Include="UniquePathsLC62.cs" />
     <Compile Include="ValidAnagramLC242.cs" />
