@@ -1,4 +1,8 @@
-﻿namespace Leetcode
+﻿// For better understanding, you can also refer Kunal Kushwaha video at https://www.youtube.com/watch?v=70tx7KcMROc
+// around. 1 hour: 10 mins
+// He explains using the length of the cycle.
+
+namespace Leetcode
 {
     public class LinkedListCycleIILC142
     {

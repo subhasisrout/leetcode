@@ -22,5 +22,23 @@
             // The above line is used in SortList148
             return slow;
         }
+
+        //came up with below while doing series of linkedlist questions.
+        public ListNode MiddleNode2(ListNode head)
+        {
+            if (head == null || head.next == null)
+                return head;
+            ListNode slow = head;
+            ListNode fast = head.next;
+            while (fast != null && fast.next != null)
+            {
+                slow = slow.next;
+                fast = fast.next.next;
+            }
+            if (fast == null)
+                return slow;
+            else
+                return slow.next;
+        }
     }
 }

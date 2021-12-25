@@ -11,6 +11,8 @@ namespace Leetcode
     // This video is helpful (https://www.youtube.com/watch?v=h6FmiyYDjmk). Try to run each iteration to intuitively understand.
 
     // #AlgoExpert #AE More intuitive solution (without Add/Remove) in AlgoExpert.
+    // Update 19-Dec-2021. 
+    // #BackTrack - No index is passed, #StringBuilder length is used.
     public class LettersCombinationLC17
     {
         public IList<string> LetterCombinations(string digits)

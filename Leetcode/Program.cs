@@ -11,8 +11,18 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            SmallestLetterGreaterThanTarget smallestLetterGreaterThanTarget = new SmallestLetterGreaterThanTarget();
-            smallestLetterGreaterThanTarget.NextGreatestLetter(new char[] {'e','e', 'e', 'e', 'e', 'e','n', 'n', 'n', 'n'}, 'e');
+            //NextPermutationLC31 nextPermutationLC31 = new NextPermutationLC31();
+            //nextPermutationLC31.NextPermutation(new int[] { 5, 4, 7, 5, 3, 2 });
+            //AllPathsFromSourceToTargetLC797 allPathsFromSourceToTargetLC797 = new AllPathsFromSourceToTargetLC797();
+            //allPathsFromSourceToTargetLC797.AllPathsSourceTarget(new int[4][] {
+            //new int[]{1,2},
+            //new int[]{3},
+            //new int[]{3},
+            //new int[]{}
+            //});
+
+            //SmallestLetterGreaterThanTarget smallestLetterGreaterThanTarget = new SmallestLetterGreaterThanTarget();
+            //smallestLetterGreaterThanTarget.NextGreatestLetter(new char[] {'e','e', 'e', 'e', 'e', 'e','n', 'n', 'n', 'n'}, 'e');
 
             // MedianOfTwoSortedArrays medianOfTwoSortedArrays = new MedianOfTwoSortedArrays();
             // medianOfTwoSortedArrays.FindMedianSortedArrays(new[] { 1, 2 }, new int[] { 3, 4 });

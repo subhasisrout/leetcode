@@ -38,5 +38,30 @@ namespace Leetcode
             }
             return sum;
         }
+
+        // Below approach is using Floyd cycle detection in linkedlist using slow and fast pointer.
+        // Refer LinkedListCycleLC141, LinkedListCycleIILC142
+        public bool IsHappy2(int n)
+        {
+            int slow = n;
+            int fast = CalcSumSquare(n);
+            while (fast != 1 && slow != fast)
+            {
+                slow = CalcSumSquare(slow);
+                fast = CalcSumSquare(CalcSumSquare(fast));
+            }
+            return fast == 1;
+        }
+        private int CalcSumSquare(int n)
+        {
+            int ans = 0;
+            while (n > 0)
+            {
+                int rem = n % 10;
+                ans += rem * rem;
+                n = n / 10;
+            }
+            return ans;
+        }
     }
 }

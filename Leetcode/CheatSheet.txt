@@ -116,6 +116,16 @@ Cheatsheet
     Another flavor of Binary Search is when you need to try a range of numbers from min....max and checking ifValid(mid)
 	Example - Koko Eating Bananas LC875, MinDaysToMakeMBouquetsLC1482, SplitArrayLargestSumLC410
 
+10. Stack / Monotonic Stack Pattern.
+	a. Keep popping until you get an element > or < than the top of stack
+	b. Update result/some kind of array/map.
+	c. Push the element.
+	d. Example - LargestRectangleInHistogramLC84, DailyTemperaturesLC739, NextGreaterElementILC496, LC503
+	e. Note the circular version LC503 uses Pepcoding trick + AE trick 
+	f. This is the only difference in the circular LC503
+		for (int k=(nums.Length * 2) - 1; k>=0; k--) {
+            int i = k % nums.Length;
+
 
 
 

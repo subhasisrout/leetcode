@@ -25,3 +25,5 @@ namespace Leetcode
         }
     }
 }
+
+// #Note: The key is just to find the nextNode in the "innerLoop" Line 16-20. Other lines are just setting the next pointer and advancing the "outerLoop".

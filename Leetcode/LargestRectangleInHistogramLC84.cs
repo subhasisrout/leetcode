@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 // #RememberPattern
+// #Stack #MonotonicStack
 // This solution found in https://www.youtube.com/watch?v=0do2734xhnU
 // is more #intuitive than #AlgoExpert #AE.
 // This is mainly dividing the solution into 3 parts - finding lb, finding rb and calculating areas.
@@ -45,6 +46,7 @@ namespace Leetcode
             // fill rb (right bound) i.e. "next small element index" on the right
             stack.Clear();
             rb[heights.Length - 1] = heights.Length; // as opposed to -1 for lb
+            // just like 0-1 for lb, it is heights.Length -1 + 1 for rb. Note its the index.
             stack.Push(heights.Length - 1);
             for (int i = heights.Length - 2; i >= 0; i--)
             {

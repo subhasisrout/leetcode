@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllPathsFromSourceToTargetLC797.cs" />
     <Compile Include="ArrayOfProductsExceptSelfLC234AE.cs" />
     <Compile Include="BestTeamWithNoConflictsLC1626.cs" />
     <Compile Include="BestTimeToBuySellStock4LC188.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="CountingBitsLC338.cs" />
     <Compile Include="CourseScheduleLC207.cs" />
     <Compile Include="CycleInGraphAE.cs" />
+    <Compile Include="DailyTemperaturesLC739.cs" />
     <Compile Include="DecodeStringLC394.cs" />
     <Compile Include="DiagonalTraverseIILC1424.cs" />
     <Compile Include="DiagonalTraverseLC498.cs" />
@@ -87,6 +89,7 @@
     <Compile Include="HeightBalancedBinaryTreeAE.cs" />
     <Compile Include="HouseRobberLC213.cs" />
     <Compile Include="IfPathExistsInGraphLC1971.cs" />
+    <Compile Include="ImplementStackUsing2QueuesLC225.cs" />
     <Compile Include="ImplementTrieLC208.cs" />
     <Compile Include="ImplementTrieWithMapLC208.cs" />
     <Compile Include="IndexEqualsValueAE.cs" />
@@ -110,6 +113,7 @@
     <Compile Include="LongestIncreasingSubsequenceLC300.cs" />
     <Compile Include="LongestMountainLC845AE.cs" />
     <Compile Include="LongestPalindromicSubStringAE.cs" />
+    <Compile Include="MatchsticksToSquareLC473.cs" />
     <Compile Include="MaximizeExpressionAE.cs" />
     <Compile Include="MaximumProductSubArrayLC152.cs" />
     <Compile Include="MaximumSumIncreasingSubsequenceAE.cs" />
@@ -130,7 +134,9 @@
     <Compile Include="MinStackLC155.cs" />
     <Compile Include="MostFrequentSubtreeSumLC508.cs" />
     <Compile Include="NextGreaterElementAE.cs" />
+    <Compile Include="NextGreaterElementIIILC556.cs" />
     <Compile Include="NextGreaterElementILC496.cs" />
+    <Compile Include="NextPermutationLC31.cs" />
     <Compile Include="NonConstructibleChangeAE.cs" />
     <Compile Include="NonOverlappingIntervalsLC435.cs" />
     <Compile Include="NumberOf1BitsLC191.cs" />
@@ -138,6 +144,7 @@
     <Compile Include="NumberOfWaysToMakeChangeLE.cs" />
     <Compile Include="NumberOfWaysToTraverseGraphAE.cs" />
     <Compile Include="PacificAtlanticWaterflowLC417.cs" />
+    <Compile Include="PalindromeLinkedListLC234.cs" />
     <Compile Include="PathSum3LC437.cs" />
     <Compile Include="PeakIndexOfMountainArrayLC852.cs" />
     <Compile Include="PerfectSquaresLC279.cs" />
@@ -150,9 +157,11 @@
     <Compile Include="RandomizedSetLC380.cs" />
     <Compile Include="ReconstructBSTAE.cs" />
     <Compile Include="RelativeSortArrayLC1122.cs" />
+    <Compile Include="RemoveDuplicatesFromSortedListIILC82.cs" />
     <Compile Include="RemoveIslandsAE.cs" />
     <Compile Include="RemoveKthNodeFromEndAE.cs" />
     <Compile Include="RemoveZeroSumConsecutiveNodesFromLinkedListLC1171.cs" />
+    <Compile Include="ReverseLinkedListIILC92.cs" />
     <Compile Include="ReverseWordsInStringAE.cs" />
     <Compile Include="RiverSizesAE.cs" />
     <Compile Include="RotateArrayInPlaceLC189.cs" />
