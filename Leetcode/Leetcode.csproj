@@ -84,6 +84,7 @@
     <Compile Include="FirstMissingPositiveLC41.cs" />
     <Compile Include="FourNumberSumLC18.cs" />
     <Compile Include="FourNumberSumAE.cs" />
+    <Compile Include="GameOfLifeLC289.cs" />
     <Compile Include="GenerateParenthesisLC22.cs" />
     <Compile Include="HasSingleCycleAE.cs" />
     <Compile Include="HeightBalancedBinaryTreeAE.cs" />
@@ -143,6 +144,7 @@
     <Compile Include="NumberOfEnclavesLC1020.cs" />
     <Compile Include="NumberOfWaysToMakeChangeLE.cs" />
     <Compile Include="NumberOfWaysToTraverseGraphAE.cs" />
+    <Compile Include="OddEvenLinkedListLC328.cs" />
     <Compile Include="PacificAtlanticWaterflowLC417.cs" />
     <Compile Include="PalindromeLinkedListLC234.cs" />
     <Compile Include="PathSum3LC437.cs" />
@@ -309,6 +311,7 @@
     <Compile Include="SymmetricTreeLC101.cs" />
     <Compile Include="ThirdMaxO_of_N_LC414.cs" />
     <Compile Include="CourseScheduleLC210.cs" />
+    <Compile Include="TopKFrequentElementsLC347.cs" />
     <Compile Include="TopologicalSortAE.cs" />
     <Compile Include="TrappingRainWaterLC42.cs" />
     <Compile Include="TwoSumLC1UsingDictionary.cs" />

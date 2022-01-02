@@ -13,7 +13,7 @@ namespace Leetcode
             int[] dpArray = new int[amount + 1];
             dpArray[0] = 1;
 
-            // Here coins array need not be sorted say 25,1,5,10
+            // Here coins array need NOT be sorted say 25,1,5,10
 
             for (int j = 0; j < coins.Length; j++) //[1,5,10,25]
             {

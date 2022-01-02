@@ -1,4 +1,6 @@
 ﻿// #QuickSelect #Inspired from #AE
+// #AE solution much more intuitive than #Neetcode
+// Just remember. 1. Choose "pivot" as the first (0) element. Swap with "pivot" is done with "right" in the end of loop.
 
 
 namespace Leetcode
