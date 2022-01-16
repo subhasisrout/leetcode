@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Leetcode
 {
-    //#TODO
     public class PalindromeLinkedListLC234
     {
         ListNode prevToMid = null;

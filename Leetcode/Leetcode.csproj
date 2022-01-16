@@ -71,6 +71,7 @@
     <Compile Include="CycleInGraphAE.cs" />
     <Compile Include="DailyTemperaturesLC739.cs" />
     <Compile Include="DecodeStringLC394.cs" />
+    <Compile Include="DeleteAndEarnLC740.cs" />
     <Compile Include="DiagonalTraverseIILC1424.cs" />
     <Compile Include="DiagonalTraverseLC498.cs" />
     <Compile Include="FindAllDuplicatesInArrayLC442.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="FindInMountainArrayLC1095.cs" />
     <Compile Include="FindLoopInLinkedListAE.cs" />
     <Compile Include="FindMinimumInRotatedArrayLC153.cs" />
+    <Compile Include="FindPivotIndexLC724.cs" />
     <Compile Include="FindTheTownJudgeLC997.cs" />
     <Compile Include="FirstDuplicateAE.cs" />
     <Compile Include="FirstMissingPositiveLC41.cs" />
@@ -126,6 +128,7 @@
     <Compile Include="MergeSortAE.cs" />
     <Compile Include="MergeSortedArrayLC88.cs" />
     <Compile Include="MinHeapConstructionAE.cs" />
+    <Compile Include="MinimumAreaRectangleLC939.cs" />
     <Compile Include="MinimumCharactersForWordsAE.cs" />
     <Compile Include="MinimumCostsForTicketsLC983.cs" />
     <Compile Include="MinimumNumberOfJumpsAE.cs" />
