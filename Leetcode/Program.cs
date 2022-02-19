@@ -11,15 +11,24 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            MinimumAreaRectangleLC939 minimumAreaRectangleLC939 = new MinimumAreaRectangleLC939();
-            minimumAreaRectangleLC939.MinAreaRect(new int[][]
-            {
-                new int[]{1,1},
-                new int[]{1,3},
-                new int[]{3,1},
-                new int[]{3,3},
-                new int[]{2,2}
-            });
+            RemoveKDigitsLC402 removeKDigitsLC402 = new RemoveKDigitsLC402();
+            var x = removeKDigitsLC402.RemoveKdigits("1234567890", 9);
+
+            //OAMaxNumOfNonIntersectingSegmentsOfLen2OfEqualSum maxNumOfNonIntersectingSegmentsOfLen2OfEqualSum = new OAMaxNumOfNonIntersectingSegmentsOfLen2OfEqualSum();
+            //var x1 = maxNumOfNonIntersectingSegmentsOfLen2OfEqualSum.Solution(new int[] { 10, 1, 3, 1, 2, 2, 1, 0, 4 });
+            //var x2 = maxNumOfNonIntersectingSegmentsOfLen2OfEqualSum.Solution(new int[] { 5,3,1,3,2,3 });
+            //var x3 = maxNumOfNonIntersectingSegmentsOfLen2OfEqualSum.Solution(new int[] { 9,9,9,9,9 });
+            //var x4 = maxNumOfNonIntersectingSegmentsOfLen2OfEqualSum.Solution(new int[] { 1,2 });
+
+            //MinimumAreaRectangleLC939 minimumAreaRectangleLC939 = new MinimumAreaRectangleLC939();
+            //minimumAreaRectangleLC939.MinAreaRect(new int[][]
+            //{
+            //    new int[]{1,1},
+            //    new int[]{1,3},
+            //    new int[]{3,1},
+            //    new int[]{3,3},
+            //    new int[]{2,2}
+            //});
 
             //NextPermutationLC31 nextPermutationLC31 = new NextPermutationLC31();
             //nextPermutationLC31.NextPermutation(new int[] { 5, 4, 7, 5, 3, 2 });

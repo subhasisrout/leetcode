@@ -67,6 +67,7 @@
     <Compile Include="ConstructBinaryTreeFromPreOrderAndInOrderLC105.cs" />
     <Compile Include="ConstructBSTFromPreOrderLC1008.cs" />
     <Compile Include="CountingBitsLC338.cs" />
+    <Compile Include="CountOfSmallerNumbersAfterSelfLC315.cs" />
     <Compile Include="CourseScheduleLC207.cs" />
     <Compile Include="CycleInGraphAE.cs" />
     <Compile Include="DailyTemperaturesLC739.cs" />
@@ -98,6 +99,7 @@
     <Compile Include="IndexEqualsValueAE.cs" />
     <Compile Include="InsertIntervalLC57.cs" />
     <Compile Include="InsertionSortAE.cs" />
+    <Compile Include="InsertionSortListLC147.cs" />
     <Compile Include="InterweavingStringsAE.cs" />
     <Compile Include="InvertBinaryTreeLC226AE.cs" />
     <Compile Include="KnapsackProblemAE.cs" />
@@ -120,6 +122,7 @@
     <Compile Include="MaximizeExpressionAE.cs" />
     <Compile Include="MaximumProductSubArrayLC152.cs" />
     <Compile Include="MaximumSumIncreasingSubsequenceAE.cs" />
+    <Compile Include="OAMaxNumOfNonIntersectingSegmentsOfLen2OfEqualSum.cs" />
     <Compile Include="MaxSubsetSumNoAdjacentAE.cs" />
     <Compile Include="MedianOfTwoSortedArrays.cs" />
     <Compile Include="MergeIntervalsLC56.cs" />
@@ -160,10 +163,12 @@
     <Compile Include="QuickSelectAE.cs" />
     <Compile Include="QuickSortAE.cs" />
     <Compile Include="RandomizedSetLC380.cs" />
+    <Compile Include="RangeSumQueryMutableLC307.cs" />
     <Compile Include="ReconstructBSTAE.cs" />
     <Compile Include="RelativeSortArrayLC1122.cs" />
     <Compile Include="RemoveDuplicatesFromSortedListIILC82.cs" />
     <Compile Include="RemoveIslandsAE.cs" />
+    <Compile Include="RemoveKDigitsLC402.cs" />
     <Compile Include="RemoveKthNodeFromEndAE.cs" />
     <Compile Include="RemoveZeroSumConsecutiveNodesFromLinkedListLC1171.cs" />
     <Compile Include="ReverseLinkedListIILC92.cs" />
@@ -191,6 +196,7 @@
     <Compile Include="SubArraySortAE.cs" />
     <Compile Include="SumRootToLeafNumbersLC129.cs" />
     <Compile Include="SunsetViewsAE.cs" />
+    <Compile Include="SwappingNodesInLinkedListLC1721.cs" />
     <Compile Include="TaskAssignmentAE.cs" />
     <Compile Include="ThreeNumberSortAE.cs" />
     <Compile Include="ThreeNumSumLC15.cs" />
