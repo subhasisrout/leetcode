@@ -196,6 +196,7 @@
     <Compile Include="SubArraySortAE.cs" />
     <Compile Include="SumRootToLeafNumbersLC129.cs" />
     <Compile Include="SunsetViewsAE.cs" />
+    <Compile Include="SwapNodesInPairLC24.cs" />
     <Compile Include="SwappingNodesInLinkedListLC1721.cs" />
     <Compile Include="TaskAssignmentAE.cs" />
     <Compile Include="ThreeNumberSortAE.cs" />
