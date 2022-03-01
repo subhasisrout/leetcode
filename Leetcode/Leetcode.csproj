@@ -122,6 +122,8 @@
     <Compile Include="MaximizeExpressionAE.cs" />
     <Compile Include="MaximumProductSubArrayLC152.cs" />
     <Compile Include="MaximumSumIncreasingSubsequenceAE.cs" />
+    <Compile Include="NQueensIILC52.cs" />
+    <Compile Include="NQueensILC51.cs" />
     <Compile Include="OAMaxNumOfNonIntersectingSegmentsOfLen2OfEqualSum.cs" />
     <Compile Include="MaxSubsetSumNoAdjacentAE.cs" />
     <Compile Include="MedianOfTwoSortedArrays.cs" />
@@ -166,6 +168,7 @@
     <Compile Include="RangeSumQueryMutableLC307.cs" />
     <Compile Include="ReconstructBSTAE.cs" />
     <Compile Include="RelativeSortArrayLC1122.cs" />
+    <Compile Include="RemoveCoveredIntervalsLC1288.cs" />
     <Compile Include="RemoveDuplicatesFromSortedListIILC82.cs" />
     <Compile Include="RemoveIslandsAE.cs" />
     <Compile Include="RemoveKDigitsLC402.cs" />

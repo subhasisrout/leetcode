@@ -1,4 +1,6 @@
-﻿namespace Leetcode
+﻿// #Greedy
+
+namespace Leetcode
 {
     using System;
     using System.Collections.Generic;
@@ -39,42 +41,6 @@
             string order1 = x + y;
             string order2 = y + x;
             return order2.CompareTo(order1);
-        }
-    }
-
-    // Idea from self. Not working.
-    public class MSBComparer : IComparer<int>
-    {
-        public int Compare(int x, int y)
-        {
-            while (x > 0 && y > 0)
-            {
-                int msbX = GetMSB(x);
-                int msbY = GetMSB(y);
-
-                if (msbX > msbY)
-                    return msbY.CompareTo(msbX);
-                else if (msbX < msbY)
-                    return msbX.CompareTo(msbY);
-                else
-                {
-                    x = x / 10;
-                    y = y / 10;
-                }
-            }
-            return x.CompareTo(y);
-
-        }
-
-        private int GetMSB(int num)
-        {
-            int msb = num;
-            while (num > 0)
-            {
-                msb = num;
-                num = num / 10;
-            }
-            return msb;
         }
     }
 }

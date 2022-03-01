@@ -11,8 +11,20 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            RemoveKDigitsLC402 removeKDigitsLC402 = new RemoveKDigitsLC402();
-            var x = removeKDigitsLC402.RemoveKdigits("1234567890", 9);
+            NQueensILC51 nQueensILC51 = new NQueensILC51();
+            nQueensILC51.SolveNQueens(4);
+
+            //RemoveCoveredIntervalsLC1288 removeCoveredIntervalsLC1288 = new RemoveCoveredIntervalsLC1288();
+            //removeCoveredIntervalsLC1288.RemoveCoveredIntervals(new int[][]{
+            //new int[] {34, 39},
+            //new int[] {15, 91},
+            //new int[] {29, 66},
+            //new int[] {53, 69},
+            //new int[] {40, 93}
+            //});
+            
+            //RemoveKDigitsLC402 removeKDigitsLC402 = new RemoveKDigitsLC402();
+            //var x = removeKDigitsLC402.RemoveKdigits("1234567890", 9);
 
             //OAMaxNumOfNonIntersectingSegmentsOfLen2OfEqualSum maxNumOfNonIntersectingSegmentsOfLen2OfEqualSum = new OAMaxNumOfNonIntersectingSegmentsOfLen2OfEqualSum();
             //var x1 = maxNumOfNonIntersectingSegmentsOfLen2OfEqualSum.Solution(new int[] { 10, 1, 3, 1, 2, 2, 1, 0, 4 });
