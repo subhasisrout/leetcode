@@ -3,7 +3,7 @@ Cheatsheet
 1. Backtracking
 	Permutations I & II. 
 		if visited then continue. Loop through all elements and backtrack by removing them and setting visited to false.	
-		Extra line in Permutation II is SORTING THE ARRAY + if (visited[i] || i > 0 && nums[i] == nums[i-1] && !visited[i-1]) continue;
+		In Permutation II use Dictionary instead of HashSet. Approach is same as above. But Loop through items in the dictionary.
 
 	Subsets I & II (Powerset)
 		startIdx is passed. Add to result, no matter what. Loop through all elements and backtrack by removing them.

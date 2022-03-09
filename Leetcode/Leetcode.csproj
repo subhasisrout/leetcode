@@ -159,6 +159,7 @@
     <Compile Include="PeakIndexOfMountainArrayLC852.cs" />
     <Compile Include="PerfectSquaresLC279.cs" />
     <Compile Include="PermutationsLC46AE.cs" />
+    <Compile Include="PermutationsLC47.cs" />
     <Compile Include="PopulatingNextRightPointersInEachNodeLC116.cs" />
     <Compile Include="PowLC50.cs" />
     <Compile Include="ProductSumAE.cs" />
