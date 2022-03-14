@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AllPathsFromSourceToTargetLC797.cs" />
+    <Compile Include="AmazonOA.cs" />
     <Compile Include="ArrayOfProductsExceptSelfLC234AE.cs" />
     <Compile Include="BestTeamWithNoConflictsLC1626.cs" />
     <Compile Include="BestTimeToBuySellStock4LC188.cs" />
@@ -87,6 +88,8 @@
     <Compile Include="FirstMissingPositiveLC41.cs" />
     <Compile Include="FourNumberSumLC18.cs" />
     <Compile Include="FourNumberSumAE.cs" />
+    <Compile Include="FourSumCountLC454.cs" />
+    <Compile Include="FourSumLC454ImplementedAsKSum.cs" />
     <Compile Include="GameOfLifeLC289.cs" />
     <Compile Include="GenerateParenthesisLC22.cs" />
     <Compile Include="HasSingleCycleAE.cs" />

@@ -1,6 +1,6 @@
 ﻿// #You could also use a heap of size k
 
-
+//IGNORE THIS AND REFER KthLargestElementLC215 (#NeetCode) for mind map.
 namespace Leetcode
 {
     public class QuickSelectAE

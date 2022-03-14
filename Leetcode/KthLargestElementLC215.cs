@@ -1,6 +1,9 @@
-﻿// #QuickSelect #Inspired from #AE
-// #AE solution much more intuitive than #Neetcode
-// Just remember. 1. Choose "pivot" as the first (0) element. Swap with "pivot" is done with "right" in the end of loop.
+﻿// #QuickSelect #Inspired from #NeetCode
+// Just remember.
+// 1. Choose "pivot" as the last element. 
+// 2. Pick a 'p' pointer which will be the tail of the left hand side.
+// 3. Iterate using 'i' from 'l' to 'r' (dont touch 'r'). Swap index i and p and p++ for <= elements
+// 4. After loop is over swap p with r.
 
 
 namespace Leetcode
@@ -9,42 +12,34 @@ namespace Leetcode
     {
         public int FindKthLargest(int[] nums, int k)
         {
-            int position = nums.Length - 1 - k; // if we sort ascending. Else it will be just k - 1, if we sort descending.           
-            QuickSelectHelper(nums, 0, nums.Length - 1, k);
-            return nums[position];
-        }
+            k = nums.Length - k;
 
-        private void QuickSelectHelper(int[] array, int start, int end, int k)
-        {
-            if (end <= start)
-                return;
-            int pivot = start;
-            int left = start + 1;
-            int right = end;
-
-            while (left <= right)
+            int QuickSelect(int l, int r)
             {
-                if (array[left] > array[pivot] && array[right] < array[pivot])
-                    Swap(array, left, right);
-                else if (array[left] <= array[pivot])
-                    left++;
-                else if (array[right] >= array[pivot])
-                    right--;
-            }
-            Swap(array, pivot, right);
-            if (right == array.Length - 1 - k)
-                return;
-            else if (array.Length - 1 - k < right)
-                QuickSelectHelper(array, start, right - 1, k); // (because at 'right', now is the NEW 'pivot')
-            else
-                QuickSelectHelper(array, right + 1, end, k);
-        }
+                int pivot = nums[r];
+                int p = l; //p pointer is the tail of the left-hand side.
 
-        private void Swap(int[] arr, int index1, int index2)
+                for (int i = l; i < r; i++)
+                { //dont touch r, as we have selected r (the last num) as the pivot
+                    if (nums[i] <= pivot)
+                    {
+                        Swap(nums, i, p);
+                        p++;
+                    }
+                }
+                Swap(nums, p, r);
+
+                if (p > k) return QuickSelect(l, p - 1);
+                else if (p < k) return QuickSelect(p + 1, r);
+                else return nums[p];
+            }
+            return QuickSelect(0, nums.Length - 1);
+        }
+        private void Swap(int[] arr, int i1, int i2)
         {
-            int tmp = arr[index1];
-            arr[index1] = arr[index2];
-            arr[index2] = tmp;
+            int tmp = arr[i1];
+            arr[i1] = arr[i2];
+            arr[i2] = tmp;
         }
     }
 }

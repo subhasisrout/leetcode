@@ -11,8 +11,12 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            NQueensILC51 nQueensILC51 = new NQueensILC51();
-            nQueensILC51.SolveNQueens(4);
+            AmazonOA amazonOA = new AmazonOA();
+            var result = amazonOA.findTotalImbalance(new List<int> { 4,1,3,2 });
+          
+
+            //NQueensILC51 nQueensILC51 = new NQueensILC51();
+            //nQueensILC51.SolveNQueens(4);
 
             //RemoveCoveredIntervalsLC1288 removeCoveredIntervalsLC1288 = new RemoveCoveredIntervalsLC1288();
             //removeCoveredIntervalsLC1288.RemoveCoveredIntervals(new int[][]{

@@ -15,7 +15,7 @@ namespace Leetcode
             Array.Sort(nums);
             for (int i = 0; i < nums.Length - 2; i++)
             {
-                if (i > 0 && nums[i] == nums[i - 1])
+                if (i > 0 && nums[i] == nums[i - 1]) //Check for duplicates in the currNum
                     continue;
 
                 int low = i + 1;
@@ -32,10 +32,13 @@ namespace Leetcode
                     else
                     {
                         result.Add(new List<int>() { nums[i], nums[low], nums[high] });
-                        while (low < high && nums[low] == nums[low + 1]) low++;
-                        while (low < high && nums[high] == nums[high - 1]) high--;
+                        while (low < high && nums[low] == nums[low + 1]) low++; //Check for duplicates in nums[low] or left
+                        //while (low < high && nums[high] == nums[high - 1]) high--; //Check for duplicates in nums[high] or right
                         low++;
-                        high--;
+                        //high--;
+
+                        //you can check and advance the pointers of either left or right. Both are not needed.
+                        //Reason - For uniquesness, if 2 out 3 numbers change, the third automatically has to change.
                     }
                 }
             }
