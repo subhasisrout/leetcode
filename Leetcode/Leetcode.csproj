@@ -166,6 +166,7 @@
     <Compile Include="PopulatingNextRightPointersInEachNodeLC116.cs" />
     <Compile Include="PowLC50.cs" />
     <Compile Include="ProductSumAE.cs" />
+    <Compile Include="PushDominoesLC838.cs" />
     <Compile Include="QuickSelectAE.cs" />
     <Compile Include="QuickSortAE.cs" />
     <Compile Include="RandomizedSetLC380.cs" />

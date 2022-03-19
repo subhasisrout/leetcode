@@ -12,54 +12,47 @@ namespace Leetcode
 {
     public class RandomizedSet
     {
-        private Dictionary<int, int> valueIndexMap;
-        List<int> numList;
+        Dictionary<int, int> map = null;
+        List<int> list = null;
 
-        /** Initialize your data structure here. */
         public RandomizedSet()
         {
-            valueIndexMap = new Dictionary<int, int>();
-            numList = new List<int>();
-
+            map = new Dictionary<int, int>();
+            list = new List<int>();
         }
 
-        /** Inserts a value to the set. Returns true if the set did not already contain the specified element. */
         public bool Insert(int val)
         {
-            if (valueIndexMap.ContainsKey(val)) return false;
-
-            valueIndexMap.Add(val, numList.Count);
-            numList.Add(val);
+            if (map.ContainsKey(val))
+                return false;
+            map.Add(val, list.Count);
+            list.Add(val);
             return true;
-
         }
 
-        /** Removes a value from the set. Returns true if the set contained the specified element. */
         public bool Remove(int val)
         {
-            if (!valueIndexMap.ContainsKey(val)) return false;
-
-            int pos = valueIndexMap[val];
+            if (!map.ContainsKey(val))
+                return false;
+            var idx = map[val]; //to be removed
+            var lastval = list[list.Count - 1]; //remove and put in above pos.        
             
-            //Copy lastItem on the position of elementToBeRemoved. Also update map.
-            int lastItem = numList[numList.Count - 1];
-            numList[pos] = lastItem;
-            valueIndexMap[lastItem] = pos;
-            
-            //Actual remove. 
-            valueIndexMap.Remove(val);
-            numList.RemoveAt(numList.Count - 1); // The trick is to achieve this.
+            // Below 2 lines update list and map
+            list[idx] = lastval;
+            map[lastval] = idx;
 
+            // Below 2 lines does actual delete in list and map. NOTE - DO THE DELETE ACTIVITY IN THE END TO AVOID INDEX OUT OF BOUND EXCEPTION.
+            map.Remove(val);
+            list.RemoveAt(list.Count - 1); // clever way of deleting in list in O(1) time.
             return true;
-
         }
 
-        /** Get a random element from the set. */
         public int GetRandom()
         {
-            return numList[new Random().Next(0, numList.Count)];
+            return list[new Random().Next(0, list.Count)];
         }
     }
+
 
     /**
      * Your RandomizedSet object will be instantiated and called as such:
